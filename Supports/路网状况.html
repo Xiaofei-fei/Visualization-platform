@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" daily_flag="2" secure_city="010" secure_cityname="北京市">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./css/common.css" class="AMap.style">
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- 浮动框css -->
+  <link rel="stylesheet" href="./css/windowFloatFirst.css">
+  <!-- 浮动框css -->
+  <link rel="stylesheet" href="./公交大数据_files/bootstrap.min.css">
+  <link href="./公交大数据_files/global.css" rel="stylesheet">
+  <link href="./公交大数据_files/gri.controls.css" rel="stylesheet">
+  <link href="./公交大数据_files/datepicker.min.css" rel="stylesheet">
+  <link href="./公交大数据_files/pagination.css" rel="stylesheet">
+  <link rel="stylesheet" href="./公交大数据_files/kuma.css">
+  <link href="./公交大数据_files/main.css" rel="stylesheet">
+  <link href="./公交大数据_files/index.css" rel="stylesheet">
+  <script src="./公交大数据_files/jquery-1.11.1.min.js"></script>
+  <script src="./公交大数据_files/bootstrap.min.js"></script>
+  <script src="./公交大数据_files/jquery.mousewheel.min.js"></script>
+  <script src="./公交大数据_files/jquery.pagination.js"></script>
+  <script src="./公交大数据_files/jquery.circliful.min.js"></script>
+  <script src="./公交大数据_files/jquery.cookie.js"></script>
+  <script src="./公交大数据_files/tween.js"></script>
+  <script src="./公交大数据_files/underscore.js"></script>
+  <script src="./公交大数据_files/velocity.js"></script>
+  <script src="./公交大数据_files/velocity.ui.js"></script>
+  <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+  <script src="./js/axios.min.js"></script>
+  <script src="./data/nrc.js"></script>
+  <script charset="utf-8" src="./data/incid.js"></script>
+  <script src="./data/road_nodes.js"></script>
+  <script src="./data/road_with_car.js"></script>
+  <script src="https://webapi.amap.com/maps?v=1.4.15&key=7f6205c8eec650c874c94de0b4aacc18"></script>
+  <style type="text/css">
+    body,
+    html,
+    #container {
+      height: 100%;
+      margin: 0px;
+      font: 12px Arial;
+    }
+
+    .content-window-card {
+      position: relative;
+      box-shadow: none;
+      bottom: 0;
+      left: 0;
+      width: auto;
+      padding: 0;
+    }
+
+    .content-window-card p {
+      height: 2rem;
+    }
+
+    .custom-info {
+      border: solid 1px silver;
+    }
+
+    div.info-top img {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      transition-duration: 0.25s;
+    }
+
+    div.info-top img:hover {
+      box-shadow: 0px 0px 5px #000;
+    }
+
+    div.info-middle {
+      font-size: 12px;
+      padding: 10px 6px;
+      line-height: 20px;
+    }
+
+    div.info-bottom {
+      height: 0px;
+      width: 100%;
+      clear: both;
+      text-align: center;
+    }
+
+    div.info-bottom img {
+      position: relative;
+      z-index: 104;
+      left: -140px;
+    }
+
+    .info-middle img {
+      float: left;
+      margin-right: 6px;
+    }
+
+
+    #seachBox01 {
+      position: fixed;
+      top: 70px;
+      left: 30px;
+      z-index: 888;
+    }
+
+    #seachBox01 input {
+      width: 270 px;
+      height: 30px;
+    }
+
+    #choice {
+      padding: 10px;
+      width: 100 px;
+      margin: 30px auto;
+      font-family: "Microsoft Yahei", "微软雅黑";
+      font-size: 14px;
+    }
+
+    /* #choice>input {
+      margin-right: 10px;
+      height: 20px;
+      width: 80 px;
+      border: 1px solid #e2e2e2;
+      padding: 0 0 0 40px;
+    } */
+
+    button {
+      text-align: center;
+      border: none;
+      width: 50px;
+      height: 30px;
+      border-radius: 1px;
+      cursor: pointer;
+    }
+  </style>
+  <title>路网状况</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="amap_bg amap-container" id="amap" style="background: rgb(24, 36, 51);">
+      <div class="amap-maps">
+        <div style="display: none;"></div>
+        <div class="amap-controls">
+          <div class="amap-scalecontrol" style="left: 2px; bottom: 20px; visibility: visible;">
+            <div class="amap-scale-text" style="width: 93.3421px;">5 公里</div>
+          </div>
+        </div><a class="amap-logo"><img src="./公交大数据_files/logo@1x.png"></a>
+        <div class="amap-copyright" style="display: none; visibility: hidden;">
+          <!--v1.4.15--> © 2021 AutoNavi <span class="amap-mcode"></span>
+        </div>
+      </div>
+      <div class="top_bar" style="min-width: 1280px">
+        <div class="city" id="city"><i class="cityLocation"></i><span class="citytext">北京</span><i class="down"></i>
+        </div>
+        <div class="topbar_right" style="min-width: 1280px">
+          <ul class="parent">
+            <li class="has_child active">
+              <i class="navcurrent"></i>
+              <a href="../公交大数据.html"><span>原始线网</span><i class="down"></i></a>
+            </li>
+            <li class="has_child">
+              <a href="./路网状况.html"><span>路网状况</span><i class="down"></i></a>
+            </li>
+            <li></li>
+            <li></li>
+            <li class="has_child">
+              <a href="./优化线网.html"><span>优化线网</span><i class="down"></i></a>
+            </li>
+            <li class="has_child">
+              <a class="parent" href="javascript:void(0)"><span>数据发布</span><i class="down"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div id="logo" style="background: url(public/image/title_center.png) no-repeat;background-size: 100%, 100%;">
+          <img class="title_logo" src="./公交大数据_files/acme0.png">
+          <span class="topbar_name"><span id="topbar_name">北京市公交线网优化</span></span>
+        </div>
+      </div>
+
+      <div id="seachBox01">
+        <form onsubmit="return search()">
+          <input type=text class="choice" autocomplete="off" autofocus id="tree_ind" placeholder="请输入路段编号(1-344)">
+          <button type="button" onclick="return search()">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="text/javascript"
+      src="https://webapi.amap.com/maps?v=1.4.15&key=2625c0c9182a614ecd3b20fddd7e1b62&plugin=AMap.Transfer&plugin=AMap.LineSearch"></script>
+    <script>
+      var map = new AMap.Map("amap", {
+        resizeEnable: true,
+        center: [116.390241, 39.996243],
+        zoom: 14,
+        // mapStyle: 'amap://styles/4e20baf67ef643952ae6357398c3c1c9'
+        mapStyle: 'amap://styles/darkblue'
+      });
+
+
+      // 研究区间覆盖范围
+      function coverageArea() {
+        var path = [
+          [116.348206, 40.025370],
+          [116.412408, 40.024450],
+          [116.410519, 39.967113],
+          [116.377560, 39.966455],
+          [116.378590, 39.976584],
+          [116.373784, 39.991579],
+          [116.348206, 40.025370]
+        ]
+        var polygon = new AMap.Polygon({
+          path: path,
+          strokeColor: "#FFFF00",
+          strokeWeight: 2,
+          strokeOpacity: 0.6,
+          fillOpacity: 0.2,
+          fillColor: "#1791fc",
+          zIndex: 50,
+          map: map
+        })
+      }
+      coverageArea();
+
+      //--------------------road display function-------------------
+      // OD连线函数
+      function showline(lineArr, rid) {
+        // Line 
+        var polyline = new AMap.Polyline({
+          path: lineArr, // 设置线覆盖物路径
+          bubble: false,
+          showDir: false,
+          strokeColor: '#00AAFF', // 线颜色
+          strokeOpacity: 0.3, // 线透明度
+          strokeWeight: 3, // 线宽
+          strokeStyle: 'solid', // 线样式
+          geodesic: true, // 绘制大地线
+          lineCap: 'round', // 折线两端样式
+          map: map
+        })
+      }
+
+      //---------------------- road with car display -----------------
+
+      roads.forEach(function (e, ind) {
+        showline(nodes[e], e);
+      })
+
+      // --------------------- 定义异常路段组合（称为树）显示函数 ----------
+      // 起终点标记，路径使用线标记
+      function showTree(nodes) {
+        // Original point Marker 
+        var mark_O = new AMap.CircleMarker({
+          center: nodes[0],
+          fillColor: '#7FFF55',
+          strokeColor: '#7FFF55',
+          radius: 3,
+          fillOpacity: 0.5,
+          strokeOpacity: 0.5,
+          strokeWeight: 2,
+          map: map
+        });
+        // Destination point Marker
+        var mark_D = new AMap.CircleMarker({
+          center: nodes[nodes.length - 1],
+          fillColor: '#7FFF55',
+          strokeColor: '#7FFF55',
+          radius: 3,
+          fillOpacity: 0.5,
+          strokeOpacity: 0.5,
+          strokeWeight: 2,
+          map: map
+        });
+        // link between OD
+        var polyline = new AMap.Polyline({
+          path: nodes,
+          strokeColor: 'red',
+          strokeWeight: 4,
+          bubble: false,
+          showDir: true,
+          strokeStyle: 'solid',
+          geodesic: true,
+          lineCap: 'round',
+          map: map
+        });
+        return [mark_O, mark_D, polyline]
+      }
+
+      // 函数：显示事件信息： icon + info_window
+      function showicon(ele) {
+        if (ele[6] === '101') {
+          var icon = new AMap.Icon({
+            size: new AMap.Size(60, 60),    // 图标尺寸
+            image: "data/acc.png",
+            imageSize: new AMap.Size(25, 25) // 根据所设置的大小拉伸或压缩图片
+          });
+        } else if (ele[6] === '201') {
+          var icon = new AMap.Icon({
+            size: new AMap.Size(40, 50),    // 图标尺寸
+            image: "data/road_work.png",
+            imageSize: new AMap.Size(25, 25)
+          });
+        } else if (ele[6] === '401') {
+          var icon = new AMap.Icon({
+            size: new AMap.Size(40, 50),    // 图标尺寸
+            image: "data/expo.png",
+            imageSize: new AMap.Size(25, 25)
+          });
+        }
+
+        var marker = new AMap.Marker({
+          icon: icon,
+          position: [ele[4], ele[5]],
+          offset: new AMap.Pixel(-7, -7),
+          zIndex: 10,
+          //title: ele[7],
+          map: map
+        });
+
+        //鼠标点击marker弹出自定义的信息窗体
+        var title = '交通状态异常识别时间：<span style="font-size:11px;color:#F00;">' + ele[0] + '</span>',
+          content = [];
+        content.push("<img src='data/key.png'>" + "事件描述：" + ele[7]);
+        //content.push("事件描述："+ele[7]);
+        console.log(ele[7]);
+        content.push("上报时间：" + ele[2]);
+        content.push("结束时间：" + ele[3]);
+
+        var infoWindow = new AMap.InfoWindow({
+          anchor: 'bottom-left',
+          isCustom: true,  //使用自定义窗体
+          content: createInfoWindow(title, content.join("<br/>")), // 调用createInfoWindow()
+          offset: new AMap.Pixel(20, -25)
+        });
+
+        AMap.event.addListener(marker, 'click', function () {
+          infoWindow.open(map, marker.getPosition()); //加载inforWindow
+        });
+      }
+
+
+      //构建自定义信息窗体
+      function createInfoWindow(title, content) {
+        var info = document.createElement("div");
+        info.className = "custom-info input-card content-window-card";
+
+        //可以通过下面的方式修改自定义窗体的宽高
+        info.style.width = "300px";
+        // 定义顶部标题
+        var top = document.createElement("div");
+        var titleD = document.createElement("div");
+        var closeX = document.createElement("img");
+        top.className = "info-top";
+        titleD.innerHTML = title;
+        closeX.src = "https://webapi.amap.com/images/close2.gif";
+        closeX.onclick = closeInfoWindow;
+
+        top.appendChild(titleD);
+        top.appendChild(closeX);
+        info.appendChild(top);
+
+        // 定义中部内容
+        var middle = document.createElement("div");
+        middle.className = "info-middle";
+        middle.style.backgroundColor = 'white';
+        middle.innerHTML = content;
+        info.appendChild(middle);
+
+        // 定义底部内容,信息窗下面的尖端
+        var bottom = document.createElement("div");
+        bottom.className = "info-bottom";
+        bottom.style.position = 'relative';
+        bottom.style.top = '0px';
+        bottom.style.margin = '0 auto';
+        var sharp = document.createElement("img");
+        sharp.src = "https://webapi.amap.com/images/sharp.png";
+        bottom.appendChild(sharp);
+        info.appendChild(bottom);
+        return info;
+      }
+
+      //关闭信息窗体
+      function closeInfoWindow() {
+        map.clearInfoWindow();
+      }
+
+      function search() {
+        map.clearMap();
+        coverageArea();
+        var val = document.getElementById("tree_ind").value;
+        if (val != "") {
+          nrc_trees[String(val)].forEach(function (e, ind) {
+            showTree(nodes[e]);
+          });
+          document.getElementById("tree_ind").value = "";
+          showicon(incid_info[String(val)]);
+          map.setFitView(); // 自适应界面大小
+          // map.remove(polyline);
+        }
+        return false;
+      }
+    </script>
+    <script type="text/javascript" src="https://webapi.amap.com/demos/js/liteToolbar.js"></script>
+</body>
+
+</html>
