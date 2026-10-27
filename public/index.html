@@ -1,0 +1,6 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>统一交通分析平台</title><link rel="stylesheet" href="app/shared.css"></head><body>
+<div id="navigation"></div><main class="home"><h1>统一交通分析平台</h1><p>风险态势、公交线路和线网优化共用一个项目。当前数据来自原仓库的历史示例，适合回放、对比与研究。</p>
+<div id="dataset-summary" aria-live="polite">正在读取本地数据概况…</div>
+<div class="cards"><article class="card"><h2><a href="risk.html">风险态势</a></h2><p>异常风险排名、指标雷达、事件解析与已有动态图片。保留 1.0、2.0 两个数据版本。</p></article><article class="card"><h2><a href="transit.html">原始公交</a></h2><p>按线路及上下行方向查询高德公交线路，查看原始指标。</p></article><article class="card"><h2><a href="optimization.html">优化线网</a></h2><p>切换原始和优化线路，比较路线与优化前后的指标。</p></article><article class="card"><h2><a href="roads.html">历史路网</a></h2><p>按历史事件编号查询关联路段、事故位置与时间。</p></article></div>
+<h2>启用地图</h2><p>将项目中的 <code>config.local.example.js</code> 复制为 <code>public/config.local.js</code>，填写自己的高德 Web Key 与安全配置，再刷新业务页面。地图和在线公交查询需要联网及有效授权。</p><p>数据版本、图片编号及迁移细节见项目 README 与 docs/MIGRATION.md。</p></main>
+<script src="app/common.js"></script><script src="assets/data/liList1023.js"></script><script src="assets/data/nrc.js"></script><script src="app/home.js"></script></body></html>

@@ -1,0 +1,42 @@
+
+        .demo-title {
+            position: absolute;
+            top: 25px;
+            left: 30%;
+            z-index: 10000;
+
+        }
+        .bgr {
+            background: black;
+            padding: 10px;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin: 10;
+            color: rgb(180, 180, 190);
+        }
+
+        .cont {
+            overflow: hidden;
+            /*内容超出后隐藏*/
+            text-overflow: ellipsis;
+            /* 超出内容显示为省略号*/
+            white-space: nowrap;
+            /*文本不进行换行*/
+        }
+
+        .box {
+            bottom: 500px;
+            width: 350px;
+            height: 150px;
+            right: 15%;
+            font-size: 22px;
+            background: #1b4074;
+            font-weight: bolder;
+            text-align: center;
+            background-image: -webkit-linear-gradient(bottom, red, #fd8403, yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }

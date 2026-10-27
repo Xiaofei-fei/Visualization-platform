@@ -1,0 +1,2168 @@
+[
+  {
+    "rank": 10,
+    "field": "congestionLength",
+    "v1": 1234,
+    "v2": 1702
+  },
+  {
+    "rank": 10,
+    "field": "congestionDegree",
+    "v1": 0.86,
+    "v2": 0.93
+  },
+  {
+    "rank": 15,
+    "field": "congestionLength",
+    "v1": 888,
+    "v2": 1857
+  },
+  {
+    "rank": 15,
+    "field": "congestionDegree",
+    "v1": 0.79,
+    "v2": 0.91
+  },
+  {
+    "rank": 18,
+    "field": "congestionLength",
+    "v1": 1307,
+    "v2": 1379
+  },
+  {
+    "rank": 18,
+    "field": "congestionDegree",
+    "v1": 0.71,
+    "v2": 0.94
+  },
+  {
+    "rank": 20,
+    "field": "congestionLength",
+    "v1": 1307,
+    "v2": 1379
+  },
+  {
+    "rank": 20,
+    "field": "congestionDegree",
+    "v1": 0.75,
+    "v2": 0.94
+  },
+  {
+    "rank": 21,
+    "field": "congestionLength",
+    "v1": 2330,
+    "v2": 1444
+  },
+  {
+    "rank": 21,
+    "field": "congestionDegree",
+    "v1": 0.84,
+    "v2": 0.7
+  },
+  {
+    "rank": 22,
+    "field": "congestionLength",
+    "v1": 2330,
+    "v2": 1444
+  },
+  {
+    "rank": 22,
+    "field": "congestionDegree",
+    "v1": 0.84,
+    "v2": 0.7
+  },
+  {
+    "rank": 25,
+    "field": "congestionLength",
+    "v1": 1885,
+    "v2": 1451
+  },
+  {
+    "rank": 25,
+    "field": "congestionDegree",
+    "v1": 0.91,
+    "v2": 0.62
+  },
+  {
+    "rank": 26,
+    "field": "congestionLength",
+    "v1": 1738,
+    "v2": 1296
+  },
+  {
+    "rank": 26,
+    "field": "congestionDegree",
+    "v1": 0.9,
+    "v2": 0.64
+  },
+  {
+    "rank": 27,
+    "field": "congestionLength",
+    "v1": 1272,
+    "v2": 1839
+  },
+  {
+    "rank": 27,
+    "field": "congestionDegree",
+    "v1": 0.63,
+    "v2": 0.9
+  },
+  {
+    "rank": 32,
+    "field": "congestionLength",
+    "v1": 1581,
+    "v2": 1690
+  },
+  {
+    "rank": 32,
+    "field": "congestionDegree",
+    "v1": 0.96,
+    "v2": 0.92
+  },
+  {
+    "rank": 34,
+    "field": "congestionLength",
+    "v1": 1885,
+    "v2": 1451
+  },
+  {
+    "rank": 34,
+    "field": "congestionDegree",
+    "v1": 0.9,
+    "v2": 0.61
+  },
+  {
+    "rank": 35,
+    "field": "congestionLength",
+    "v1": 1581,
+    "v2": 1690
+  },
+  {
+    "rank": 35,
+    "field": "congestionDegree",
+    "v1": 0.96,
+    "v2": 0.92
+  },
+  {
+    "rank": 36,
+    "field": "congestionLength",
+    "v1": 1272,
+    "v2": 1839
+  },
+  {
+    "rank": 36,
+    "field": "congestionDegree",
+    "v1": 0.65,
+    "v2": 0.89
+  },
+  {
+    "rank": 38,
+    "field": "congestionLength",
+    "v1": 1081,
+    "v2": 1135
+  },
+  {
+    "rank": 38,
+    "field": "congestionDegree",
+    "v1": 0.67,
+    "v2": 0.9
+  },
+  {
+    "rank": 39,
+    "field": "congestionLength",
+    "v1": 2330,
+    "v2": 1444
+  },
+  {
+    "rank": 39,
+    "field": "congestionDegree",
+    "v1": 0.85,
+    "v2": 0.7
+  },
+  {
+    "rank": 40,
+    "field": "congestionLength",
+    "v1": 888,
+    "v2": 1857
+  },
+  {
+    "rank": 40,
+    "field": "congestionDegree",
+    "v1": 0.7,
+    "v2": 0.81
+  },
+  {
+    "rank": 43,
+    "field": "congestionLength",
+    "v1": 1245,
+    "v2": 1652
+  },
+  {
+    "rank": 43,
+    "field": "congestionDegree",
+    "v1": 0.82,
+    "v2": 0.91
+  },
+  {
+    "rank": 44,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 44,
+    "field": "congestionDegree",
+    "v1": 0.92,
+    "v2": 0.83
+  },
+  {
+    "rank": 45,
+    "field": "congestionLength",
+    "v1": 1929,
+    "v2": 1588
+  },
+  {
+    "rank": 45,
+    "field": "congestionDegree",
+    "v1": 0.94,
+    "v2": 0.85
+  },
+  {
+    "rank": 46,
+    "field": "congestionLength",
+    "v1": 888,
+    "v2": 1857
+  },
+  {
+    "rank": 46,
+    "field": "congestionDegree",
+    "v1": 0.7,
+    "v2": 0.81
+  },
+  {
+    "rank": 47,
+    "field": "congestionLength",
+    "v1": 1046,
+    "v2": 1871
+  },
+  {
+    "rank": 47,
+    "field": "congestionDegree",
+    "v1": 0.62,
+    "v2": 0.8
+  },
+  {
+    "rank": 48,
+    "field": "congestionLength",
+    "v1": 1561,
+    "v2": 1670
+  },
+  {
+    "rank": 48,
+    "field": "congestionDegree",
+    "v1": 0.92,
+    "v2": 0.85
+  },
+  {
+    "rank": 50,
+    "field": "congestionLength",
+    "v1": 1272,
+    "v2": 1839
+  },
+  {
+    "rank": 50,
+    "field": "congestionDegree",
+    "v1": 0.64,
+    "v2": 0.88
+  },
+  {
+    "rank": 53,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 53,
+    "field": "congestionDegree",
+    "v1": 0.91,
+    "v2": 0.77
+  },
+  {
+    "rank": 54,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 54,
+    "field": "congestionDegree",
+    "v1": 0.92,
+    "v2": 0.87
+  },
+  {
+    "rank": 55,
+    "field": "congestionLength",
+    "v1": 1958,
+    "v2": 2391
+  },
+  {
+    "rank": 55,
+    "field": "congestionDegree",
+    "v1": 0.75,
+    "v2": 0.93
+  },
+  {
+    "rank": 56,
+    "field": "congestionLength",
+    "v1": 1958,
+    "v2": 2391
+  },
+  {
+    "rank": 56,
+    "field": "congestionDegree",
+    "v1": 0.77,
+    "v2": 0.93
+  },
+  {
+    "rank": 57,
+    "field": "congestionLength",
+    "v1": 1561,
+    "v2": 1670
+  },
+  {
+    "rank": 57,
+    "field": "congestionDegree",
+    "v1": 0.92,
+    "v2": 0.85
+  },
+  {
+    "rank": 58,
+    "field": "congestionLength",
+    "v1": 1307,
+    "v2": 1379
+  },
+  {
+    "rank": 58,
+    "field": "congestionDegree",
+    "v1": 0.82,
+    "v2": 0.89
+  },
+  {
+    "rank": 59,
+    "field": "congestionLength",
+    "v1": 1929,
+    "v2": 1588
+  },
+  {
+    "rank": 59,
+    "field": "congestionDegree",
+    "v1": 0.91,
+    "v2": 0.88
+  },
+  {
+    "rank": 60,
+    "field": "congestionLength",
+    "v1": 1307,
+    "v2": 1379
+  },
+  {
+    "rank": 60,
+    "field": "congestionDegree",
+    "v1": 0.82,
+    "v2": 0.89
+  },
+  {
+    "rank": 61,
+    "field": "congestionLength",
+    "v1": 888,
+    "v2": 1857
+  },
+  {
+    "rank": 61,
+    "field": "congestionDegree",
+    "v1": 0.7,
+    "v2": 0.81
+  },
+  {
+    "rank": 62,
+    "field": "congestionLength",
+    "v1": 1929,
+    "v2": 1588
+  },
+  {
+    "rank": 62,
+    "field": "congestionDegree",
+    "v1": 0.89,
+    "v2": 0.84
+  },
+  {
+    "rank": 63,
+    "field": "congestionLength",
+    "v1": 1412,
+    "v2": 1265
+  },
+  {
+    "rank": 63,
+    "field": "congestionDegree",
+    "v1": 0.76,
+    "v2": 0.9
+  },
+  {
+    "rank": 64,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 64,
+    "field": "congestionDegree",
+    "v1": 0.9,
+    "v2": 0.86
+  },
+  {
+    "rank": 65,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 65,
+    "field": "congestionDegree",
+    "v1": 0.9,
+    "v2": 0.86
+  },
+  {
+    "rank": 66,
+    "field": "congestionLength",
+    "v1": 1412,
+    "v2": 1265
+  },
+  {
+    "rank": 66,
+    "field": "congestionDegree",
+    "v1": 0.76,
+    "v2": 0.89
+  },
+  {
+    "rank": 67,
+    "field": "congestionLength",
+    "v1": 1412,
+    "v2": 1265
+  },
+  {
+    "rank": 67,
+    "field": "congestionDegree",
+    "v1": 0.76,
+    "v2": 0.89
+  },
+  {
+    "rank": 68,
+    "field": "congestionLength",
+    "v1": 952,
+    "v2": 1501
+  },
+  {
+    "rank": 68,
+    "field": "congestionDegree",
+    "v1": 0.52,
+    "v2": 0.88
+  },
+  {
+    "rank": 69,
+    "field": "congestionLength",
+    "v1": 1929,
+    "v2": 1588
+  },
+  {
+    "rank": 69,
+    "field": "congestionDegree",
+    "v1": 0.91,
+    "v2": 0.88
+  },
+  {
+    "rank": 72,
+    "field": "congestionLength",
+    "v1": 1307,
+    "v2": 1379
+  },
+  {
+    "rank": 72,
+    "field": "congestionDegree",
+    "v1": 0.64,
+    "v2": 0.84
+  },
+  {
+    "rank": 74,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 74,
+    "field": "congestionDegree",
+    "v1": 0.92,
+    "v2": 0.85
+  },
+  {
+    "rank": 75,
+    "field": "congestionLength",
+    "v1": 1929,
+    "v2": 1588
+  },
+  {
+    "rank": 75,
+    "field": "congestionDegree",
+    "v1": 0.86,
+    "v2": 0.8
+  },
+  {
+    "rank": 76,
+    "field": "congestionLength",
+    "v1": 1412,
+    "v2": 1265
+  },
+  {
+    "rank": 76,
+    "field": "congestionDegree",
+    "v1": 0.76,
+    "v2": 0.9
+  },
+  {
+    "rank": 77,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 77,
+    "field": "congestionDegree",
+    "v1": 0.84,
+    "v2": 0.7
+  },
+  {
+    "rank": 78,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 78,
+    "field": "congestionDegree",
+    "v1": 0.82,
+    "v2": 0.66
+  },
+  {
+    "rank": 80,
+    "field": "congestionLength",
+    "v1": 2449,
+    "v2": 2050
+  },
+  {
+    "rank": 80,
+    "field": "congestionDegree",
+    "v1": 0.87,
+    "v2": 0.78
+  },
+  {
+    "rank": 83,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 83,
+    "field": "congestionDegree",
+    "v1": 0.89,
+    "v2": 0.76
+  },
+  {
+    "rank": 84,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 84,
+    "field": "congestionDegree",
+    "v1": 0.88,
+    "v2": 0.83
+  },
+  {
+    "rank": 85,
+    "field": "congestionLength",
+    "v1": 1229,
+    "v2": 1483
+  },
+  {
+    "rank": 85,
+    "field": "congestionDegree",
+    "v1": 0.65,
+    "v2": 0.72
+  },
+  {
+    "rank": 86,
+    "field": "congestionLength",
+    "v1": 1285,
+    "v2": 1433
+  },
+  {
+    "rank": 86,
+    "field": "congestionDegree",
+    "v1": 0.76,
+    "v2": 0.81
+  },
+  {
+    "rank": 88,
+    "field": "congestionLength",
+    "v1": 2328,
+    "v2": 1733
+  },
+  {
+    "rank": 88,
+    "field": "congestionDegree",
+    "v1": 0.93,
+    "v2": 0.82
+  },
+  {
+    "rank": 90,
+    "field": "congestionLength",
+    "v1": 2449,
+    "v2": 2050
+  },
+  {
+    "rank": 90,
+    "field": "congestionDegree",
+    "v1": 0.7,
+    "v2": 0.61
+  },
+  {
+    "rank": 91,
+    "field": "congestionLength",
+    "v1": 1412,
+    "v2": 1265
+  },
+  {
+    "rank": 91,
+    "field": "congestionDegree",
+    "v1": 0.71,
+    "v2": 0.85
+  },
+  {
+    "rank": 92,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 92,
+    "field": "congestionDegree",
+    "v1": 0.81,
+    "v2": 0.78
+  },
+  {
+    "rank": 93,
+    "field": "congestionLength",
+    "v1": 1307,
+    "v2": 1379
+  },
+  {
+    "rank": 93,
+    "field": "congestionDegree",
+    "v1": 0.74,
+    "v2": 0.85
+  },
+  {
+    "rank": 95,
+    "field": "congestionLength",
+    "v1": 1958,
+    "v2": 2391
+  },
+  {
+    "rank": 95,
+    "field": "congestionDegree",
+    "v1": 0.71,
+    "v2": 0.87
+  },
+  {
+    "rank": 97,
+    "field": "congestionLength",
+    "v1": 1634,
+    "v2": 2035
+  },
+  {
+    "rank": 97,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.78
+  },
+  {
+    "rank": 98,
+    "field": "congestionLength",
+    "v1": 1285,
+    "v2": 1433
+  },
+  {
+    "rank": 98,
+    "field": "congestionDegree",
+    "v1": 0.75,
+    "v2": 0.8
+  },
+  {
+    "rank": 100,
+    "field": "congestionLength",
+    "v1": 1930,
+    "v2": 1498
+  },
+  {
+    "rank": 100,
+    "field": "congestionDegree",
+    "v1": 0.64,
+    "v2": 0.75
+  },
+  {
+    "rank": 101,
+    "field": "congestionLength",
+    "v1": 1930,
+    "v2": 1498
+  },
+  {
+    "rank": 101,
+    "field": "congestionDegree",
+    "v1": 0.64,
+    "v2": 0.75
+  },
+  {
+    "rank": 104,
+    "field": "congestionLength",
+    "v1": 2449,
+    "v2": 2050
+  },
+  {
+    "rank": 104,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.76
+  },
+  {
+    "rank": 105,
+    "field": "congestionLength",
+    "v1": 2219,
+    "v2": 1686
+  },
+  {
+    "rank": 105,
+    "field": "congestionDegree",
+    "v1": 0.88,
+    "v2": 0.8
+  },
+  {
+    "rank": 106,
+    "field": "congestionLength",
+    "v1": 1929,
+    "v2": 1588
+  },
+  {
+    "rank": 106,
+    "field": "congestionDegree",
+    "v1": 0.84,
+    "v2": 0.76
+  },
+  {
+    "rank": 108,
+    "field": "congestionLength",
+    "v1": 1958,
+    "v2": 2391
+  },
+  {
+    "rank": 108,
+    "field": "congestionDegree",
+    "v1": 0.72,
+    "v2": 0.88
+  },
+  {
+    "rank": 109,
+    "field": "congestionLength",
+    "v1": 1958,
+    "v2": 2391
+  },
+  {
+    "rank": 109,
+    "field": "congestionDegree",
+    "v1": 0.72,
+    "v2": 0.88
+  },
+  {
+    "rank": 110,
+    "field": "congestionLength",
+    "v1": 1412,
+    "v2": 1265
+  },
+  {
+    "rank": 110,
+    "field": "congestionDegree",
+    "v1": 0.72,
+    "v2": 0.85
+  },
+  {
+    "rank": 112,
+    "field": "congestionLength",
+    "v1": 1229,
+    "v2": 1483
+  },
+  {
+    "rank": 112,
+    "field": "congestionDegree",
+    "v1": 0.69,
+    "v2": 0.75
+  },
+  {
+    "rank": 113,
+    "field": "congestionLength",
+    "v1": 1209,
+    "v2": 1191
+  },
+  {
+    "rank": 114,
+    "field": "congestionLength",
+    "v1": 1911,
+    "v2": 1498
+  },
+  {
+    "rank": 114,
+    "field": "congestionDegree",
+    "v1": 0.63,
+    "v2": 0.66
+  },
+  {
+    "rank": 115,
+    "field": "congestionLength",
+    "v1": 2328,
+    "v2": 1733
+  },
+  {
+    "rank": 115,
+    "field": "congestionDegree",
+    "v1": 0.87,
+    "v2": 0.73
+  },
+  {
+    "rank": 116,
+    "field": "congestionLength",
+    "v1": 2328,
+    "v2": 1733
+  },
+  {
+    "rank": 116,
+    "field": "congestionDegree",
+    "v1": 0.54,
+    "v2": 0.5
+  },
+  {
+    "rank": 117,
+    "field": "congestionLength",
+    "v1": 2288,
+    "v2": 2128
+  },
+  {
+    "rank": 117,
+    "field": "congestionDegree",
+    "v1": 0.68,
+    "v2": 0.6
+  },
+  {
+    "rank": 119,
+    "field": "congestionLength",
+    "v1": 2219,
+    "v2": 1686
+  },
+  {
+    "rank": 119,
+    "field": "congestionDegree",
+    "v1": 0.86,
+    "v2": 0.76
+  },
+  {
+    "rank": 120,
+    "field": "congestionLength",
+    "v1": 1229,
+    "v2": 1483
+  },
+  {
+    "rank": 120,
+    "field": "congestionDegree",
+    "v1": 0.55,
+    "v2": 0.66
+  },
+  {
+    "rank": 121,
+    "field": "congestionLength",
+    "v1": 1561,
+    "v2": 1670
+  },
+  {
+    "rank": 121,
+    "field": "congestionDegree",
+    "v1": 0.81,
+    "v2": 0.74
+  },
+  {
+    "rank": 122,
+    "field": "congestionLength",
+    "v1": 2449,
+    "v2": 2050
+  },
+  {
+    "rank": 122,
+    "field": "congestionDegree",
+    "v1": 0.65,
+    "v2": 0.53
+  },
+  {
+    "rank": 123,
+    "field": "congestionLength",
+    "v1": 1911,
+    "v2": 1498
+  },
+  {
+    "rank": 123,
+    "field": "congestionDegree",
+    "v1": 0.64,
+    "v2": 0.7
+  },
+  {
+    "rank": 124,
+    "field": "congestionLength",
+    "v1": 1911,
+    "v2": 1498
+  },
+  {
+    "rank": 124,
+    "field": "congestionDegree",
+    "v1": 0.65,
+    "v2": 0.7
+  },
+  {
+    "rank": 126,
+    "field": "congestionLength",
+    "v1": 2328,
+    "v2": 1733
+  },
+  {
+    "rank": 126,
+    "field": "congestionDegree",
+    "v1": 0.54,
+    "v2": 0.5
+  },
+  {
+    "rank": 127,
+    "field": "congestionLength",
+    "v1": 1911,
+    "v2": 1498
+  },
+  {
+    "rank": 127,
+    "field": "congestionDegree",
+    "v1": 0.62,
+    "v2": 0.65
+  },
+  {
+    "rank": 129,
+    "field": "congestionLength",
+    "v1": 1007,
+    "v2": 978
+  },
+  {
+    "rank": 129,
+    "field": "congestionDegree",
+    "v1": 0.92,
+    "v2": 0.87
+  },
+  {
+    "rank": 131,
+    "field": "congestionLength",
+    "v1": 2219,
+    "v2": 1686
+  },
+  {
+    "rank": 131,
+    "field": "congestionDegree",
+    "v1": 0.86,
+    "v2": 0.73
+  },
+  {
+    "rank": 134,
+    "field": "congestionLength",
+    "v1": 1358,
+    "v2": 863
+  },
+  {
+    "rank": 134,
+    "field": "congestionDegree",
+    "v1": 0.76,
+    "v2": 0.83
+  },
+  {
+    "rank": 135,
+    "field": "congestionLength",
+    "v1": 2449,
+    "v2": 2050
+  },
+  {
+    "rank": 135,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.7
+  },
+  {
+    "rank": 139,
+    "field": "congestionLength",
+    "v1": 1980,
+    "v2": 1853
+  },
+  {
+    "rank": 139,
+    "field": "congestionDegree",
+    "v1": 0.82,
+    "v2": 0.64
+  },
+  {
+    "rank": 140,
+    "field": "congestionLength",
+    "v1": 739,
+    "v2": 765
+  },
+  {
+    "rank": 140,
+    "field": "congestionDegree",
+    "v1": 0.9,
+    "v2": 0.87
+  },
+  {
+    "rank": 141,
+    "field": "congestionLength",
+    "v1": 2449,
+    "v2": 2050
+  },
+  {
+    "rank": 141,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.7
+  },
+  {
+    "rank": 143,
+    "field": "congestionLength",
+    "v1": 1007,
+    "v2": 978
+  },
+  {
+    "rank": 143,
+    "field": "congestionDegree",
+    "v1": 0.91,
+    "v2": 0.86
+  },
+  {
+    "rank": 146,
+    "field": "congestionLength",
+    "v1": 1958,
+    "v2": 2391
+  },
+  {
+    "rank": 146,
+    "field": "congestionDegree",
+    "v1": 0.67,
+    "v2": 0.85
+  },
+  {
+    "rank": 148,
+    "field": "congestionLength",
+    "v1": 929,
+    "v2": 1001
+  },
+  {
+    "rank": 148,
+    "field": "congestionDegree",
+    "v1": 0.68,
+    "v2": 0.69
+  },
+  {
+    "rank": 149,
+    "field": "congestionLength",
+    "v1": 2328,
+    "v2": 1733
+  },
+  {
+    "rank": 149,
+    "field": "congestionDegree",
+    "v1": 0.84,
+    "v2": 0.66
+  },
+  {
+    "rank": 154,
+    "field": "congestionLength",
+    "v1": 2288,
+    "v2": 2128
+  },
+  {
+    "rank": 154,
+    "field": "congestionDegree",
+    "v1": 0.68,
+    "v2": 0.6
+  },
+  {
+    "rank": 155,
+    "field": "congestionLength",
+    "v1": 2449,
+    "v2": 2050
+  },
+  {
+    "rank": 155,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.68
+  },
+  {
+    "rank": 158,
+    "field": "congestionLength",
+    "v1": 1285,
+    "v2": 1433
+  },
+  {
+    "rank": 158,
+    "field": "congestionDegree",
+    "v1": 0.56,
+    "v2": 0.66
+  },
+  {
+    "rank": 159,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 159,
+    "field": "congestionDegree",
+    "v1": 0.85,
+    "v2": 0.61
+  },
+  {
+    "rank": 160,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 160,
+    "field": "congestionDegree",
+    "v1": 0.9,
+    "v2": 0.76
+  },
+  {
+    "rank": 163,
+    "field": "congestionLength",
+    "v1": 411,
+    "v2": 516
+  },
+  {
+    "rank": 163,
+    "field": "congestionDegree",
+    "v1": 0.94,
+    "v2": 0.68
+  },
+  {
+    "rank": 169,
+    "field": "congestionLength",
+    "v1": 911,
+    "v2": 830
+  },
+  {
+    "rank": 169,
+    "field": "congestionDegree",
+    "v1": 0.78,
+    "v2": 0.84
+  },
+  {
+    "rank": 170,
+    "field": "congestionLength",
+    "v1": 1285,
+    "v2": 1433
+  },
+  {
+    "rank": 170,
+    "field": "congestionDegree",
+    "v1": 0.54,
+    "v2": 0.64
+  },
+  {
+    "rank": 173,
+    "field": "congestionLength",
+    "v1": 1930,
+    "v2": 1498
+  },
+  {
+    "rank": 173,
+    "field": "congestionDegree",
+    "v1": 0.65,
+    "v2": 0.71
+  },
+  {
+    "rank": 174,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 174,
+    "field": "congestionDegree",
+    "v1": 0.85,
+    "v2": 0.61
+  },
+  {
+    "rank": 176,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 176,
+    "field": "congestionDegree",
+    "v1": 0.55,
+    "v2": 0.52
+  },
+  {
+    "rank": 177,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 177,
+    "field": "congestionDegree",
+    "v1": 0.56,
+    "v2": 0.52
+  },
+  {
+    "rank": 178,
+    "field": "congestionLength",
+    "v1": 901,
+    "v2": 766
+  },
+  {
+    "rank": 178,
+    "field": "congestionDegree",
+    "v1": 0.66,
+    "v2": 0.81
+  },
+  {
+    "rank": 181,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 181,
+    "field": "congestionDegree",
+    "v1": 0.86,
+    "v2": 0.78
+  },
+  {
+    "rank": 185,
+    "field": "congestionLength",
+    "v1": 1285,
+    "v2": 1433
+  },
+  {
+    "rank": 185,
+    "field": "congestionDegree",
+    "v1": 0.55,
+    "v2": 0.64
+  },
+  {
+    "rank": 186,
+    "field": "congestionLength",
+    "v1": 1958,
+    "v2": 2086
+  },
+  {
+    "rank": 186,
+    "field": "congestionDegree",
+    "v1": 0.63,
+    "v2": 0.67
+  },
+  {
+    "rank": 187,
+    "field": "congestionLength",
+    "v1": 1285,
+    "v2": 1433
+  },
+  {
+    "rank": 187,
+    "field": "congestionDegree",
+    "v1": 0.47,
+    "v2": 0.58
+  },
+  {
+    "rank": 188,
+    "field": "congestionLength",
+    "v1": 1930,
+    "v2": 1498
+  },
+  {
+    "rank": 188,
+    "field": "congestionDegree",
+    "v1": 0.82,
+    "v2": 0.7
+  },
+  {
+    "rank": 189,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 189,
+    "field": "congestionDegree",
+    "v1": 0.74,
+    "v2": 0.6
+  },
+  {
+    "rank": 191,
+    "field": "congestionLength",
+    "v1": 1958,
+    "v2": 2391
+  },
+  {
+    "rank": 191,
+    "field": "congestionDegree",
+    "v1": 0.65,
+    "v2": 0.83
+  },
+  {
+    "rank": 193,
+    "field": "congestionLength",
+    "v1": 1930,
+    "v2": 1498
+  },
+  {
+    "rank": 193,
+    "field": "congestionDegree",
+    "v1": 0.65,
+    "v2": 0.71
+  },
+  {
+    "rank": 195,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 195,
+    "field": "congestionDegree",
+    "v1": 0.74,
+    "v2": 0.6
+  },
+  {
+    "rank": 196,
+    "field": "congestionDegree",
+    "v1": 0.6,
+    "v2": 0.59
+  },
+  {
+    "rank": 197,
+    "field": "congestionLength",
+    "v1": 1441,
+    "v2": 1225
+  },
+  {
+    "rank": 197,
+    "field": "congestionDegree",
+    "v1": 0.81,
+    "v2": 0.63
+  },
+  {
+    "rank": 198,
+    "field": "congestionLength",
+    "v1": 1285,
+    "v2": 1433
+  },
+  {
+    "rank": 198,
+    "field": "congestionDegree",
+    "v1": 0.52,
+    "v2": 0.61
+  },
+  {
+    "rank": 200,
+    "field": "congestionLength",
+    "v1": 1400,
+    "v2": 1711
+  },
+  {
+    "rank": 200,
+    "field": "congestionDegree",
+    "v1": 0.6,
+    "v2": 0.54
+  },
+  {
+    "rank": 203,
+    "field": "congestionLength",
+    "v1": 1930,
+    "v2": 1498
+  },
+  {
+    "rank": 203,
+    "field": "congestionDegree",
+    "v1": 0.74,
+    "v2": 0.6
+  },
+  {
+    "rank": 204,
+    "field": "congestionLength",
+    "v1": 802,
+    "v2": 767
+  },
+  {
+    "rank": 205,
+    "field": "congestionLength",
+    "v1": 915,
+    "v2": 914
+  },
+  {
+    "rank": 205,
+    "field": "congestionDegree",
+    "v1": 0.73,
+    "v2": 0.72
+  },
+  {
+    "rank": 206,
+    "field": "congestionLength",
+    "v1": 1454,
+    "v2": 1346
+  },
+  {
+    "rank": 206,
+    "field": "congestionDegree",
+    "v1": 0.7,
+    "v2": 0.75
+  },
+  {
+    "rank": 207,
+    "field": "congestionLength",
+    "v1": 909,
+    "v2": 619
+  },
+  {
+    "rank": 207,
+    "field": "congestionDegree",
+    "v1": 0.88,
+    "v2": 0.85
+  },
+  {
+    "rank": 208,
+    "field": "congestionLength",
+    "v1": 909,
+    "v2": 619
+  },
+  {
+    "rank": 208,
+    "field": "congestionDegree",
+    "v1": 0.88,
+    "v2": 0.85
+  },
+  {
+    "rank": 209,
+    "field": "congestionLength",
+    "v1": 1930,
+    "v2": 1498
+  },
+  {
+    "rank": 209,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.68
+  },
+  {
+    "rank": 211,
+    "field": "congestionLength",
+    "v1": 1911,
+    "v2": 1498
+  },
+  {
+    "rank": 211,
+    "field": "congestionDegree",
+    "v1": 0.73,
+    "v2": 0.6
+  },
+  {
+    "rank": 213,
+    "field": "congestionLength",
+    "v1": 1342,
+    "v2": 1311
+  },
+  {
+    "rank": 213,
+    "field": "congestionDegree",
+    "v1": 0.59,
+    "v2": 0.56
+  },
+  {
+    "rank": 214,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 214,
+    "field": "congestionDegree",
+    "v1": 0.83,
+    "v2": 0.77
+  },
+  {
+    "rank": 216,
+    "field": "congestionLength",
+    "v1": 1400,
+    "v2": 1711
+  },
+  {
+    "rank": 216,
+    "field": "congestionDegree",
+    "v1": 0.6,
+    "v2": 0.58
+  },
+  {
+    "rank": 217,
+    "field": "congestionLength",
+    "v1": 920,
+    "v2": 843
+  },
+  {
+    "rank": 217,
+    "field": "congestionDegree",
+    "v1": 0.72,
+    "v2": 0.74
+  },
+  {
+    "rank": 220,
+    "field": "congestionLength",
+    "v1": 802,
+    "v2": 767
+  },
+  {
+    "rank": 220,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.71
+  },
+  {
+    "rank": 221,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 221,
+    "field": "congestionDegree",
+    "v1": 0.84,
+    "v2": 0.59
+  },
+  {
+    "rank": 224,
+    "field": "congestionLength",
+    "v1": 1454,
+    "v2": 1346
+  },
+  {
+    "rank": 224,
+    "field": "congestionDegree",
+    "v1": 0.67,
+    "v2": 0.72
+  },
+  {
+    "rank": 225,
+    "field": "congestionLength",
+    "v1": 2219,
+    "v2": 1686
+  },
+  {
+    "rank": 225,
+    "field": "congestionDegree",
+    "v1": 0.72,
+    "v2": 0.62
+  },
+  {
+    "rank": 226,
+    "field": "congestionLength",
+    "v1": 1400,
+    "v2": 1711
+  },
+  {
+    "rank": 226,
+    "field": "congestionDegree",
+    "v1": 0.59,
+    "v2": 0.51
+  },
+  {
+    "rank": 227,
+    "field": "congestionLength",
+    "v1": 802,
+    "v2": 767
+  },
+  {
+    "rank": 227,
+    "field": "congestionDegree",
+    "v1": 0.78,
+    "v2": 0.68
+  },
+  {
+    "rank": 230,
+    "field": "congestionLength",
+    "v1": 801,
+    "v2": 831
+  },
+  {
+    "rank": 230,
+    "field": "congestionDegree",
+    "v1": 0.77,
+    "v2": 0.68
+  },
+  {
+    "rank": 231,
+    "field": "congestionLength",
+    "v1": 802,
+    "v2": 767
+  },
+  {
+    "rank": 231,
+    "field": "congestionDegree",
+    "v1": 0.79,
+    "v2": 0.72
+  },
+  {
+    "rank": 234,
+    "field": "congestionLength",
+    "v1": 1342,
+    "v2": 1311
+  },
+  {
+    "rank": 234,
+    "field": "congestionDegree",
+    "v1": 0.63,
+    "v2": 0.62
+  },
+  {
+    "rank": 240,
+    "field": "congestionLength",
+    "v1": 1400,
+    "v2": 1711
+  },
+  {
+    "rank": 240,
+    "field": "congestionDegree",
+    "v1": 0.62,
+    "v2": 0.53
+  },
+  {
+    "rank": 241,
+    "field": "congestionLength",
+    "v1": 802,
+    "v2": 767
+  },
+  {
+    "rank": 241,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.71
+  },
+  {
+    "rank": 244,
+    "field": "congestionLength",
+    "v1": 1400,
+    "v2": 1711
+  },
+  {
+    "rank": 244,
+    "field": "congestionDegree",
+    "v1": 0.6,
+    "v2": 0.55
+  },
+  {
+    "rank": 246,
+    "field": "congestionLength",
+    "v1": 1400,
+    "v2": 1711
+  },
+  {
+    "rank": 246,
+    "field": "congestionDegree",
+    "v1": 0.57,
+    "v2": 0.49
+  },
+  {
+    "rank": 250,
+    "field": "congestionLength",
+    "v1": 1400,
+    "v2": 1711
+  },
+  {
+    "rank": 250,
+    "field": "congestionDegree",
+    "v1": 0.56,
+    "v2": 0.48
+  },
+  {
+    "rank": 251,
+    "field": "congestionDegree",
+    "v1": 0.6,
+    "v2": 0.59
+  },
+  {
+    "rank": 254,
+    "field": "congestionLength",
+    "v1": 795,
+    "v2": 980
+  },
+  {
+    "rank": 254,
+    "field": "congestionDegree",
+    "v1": 0.68,
+    "v2": 0.81
+  },
+  {
+    "rank": 255,
+    "field": "congestionLength",
+    "v1": 795,
+    "v2": 980
+  },
+  {
+    "rank": 255,
+    "field": "congestionDegree",
+    "v1": 0.68,
+    "v2": 0.81
+  },
+  {
+    "rank": 257,
+    "field": "congestionLength",
+    "v1": 802,
+    "v2": 767
+  },
+  {
+    "rank": 257,
+    "field": "congestionDegree",
+    "v1": 0.79,
+    "v2": 0.8
+  },
+  {
+    "rank": 261,
+    "field": "congestionLength",
+    "v1": 767,
+    "v2": 769
+  },
+  {
+    "rank": 261,
+    "field": "congestionDegree",
+    "v1": 0.69,
+    "v2": 0.66
+  },
+  {
+    "rank": 266,
+    "field": "congestionLength",
+    "v1": 401,
+    "v2": 387
+  },
+  {
+    "rank": 268,
+    "field": "congestionLength",
+    "v1": 909,
+    "v2": 881
+  },
+  {
+    "rank": 268,
+    "field": "congestionDegree",
+    "v1": 0.71,
+    "v2": 0.64
+  },
+  {
+    "rank": 269,
+    "field": "congestionLength",
+    "v1": 1979,
+    "v2": 1378
+  },
+  {
+    "rank": 269,
+    "field": "congestionDegree",
+    "v1": 0.43,
+    "v2": 0.5
+  },
+  {
+    "rank": 273,
+    "field": "congestionLength",
+    "v1": 252,
+    "v2": 309
+  },
+  {
+    "rank": 273,
+    "field": "congestionDegree",
+    "v1": 0.82,
+    "v2": 0.62
+  },
+  {
+    "rank": 274,
+    "field": "congestionLength",
+    "v1": 612,
+    "v2": 617
+  },
+  {
+    "rank": 274,
+    "field": "congestionDegree",
+    "v1": 0.88,
+    "v2": 0.82
+  },
+  {
+    "rank": 276,
+    "field": "congestionLength",
+    "v1": 411,
+    "v2": 516
+  },
+  {
+    "rank": 276,
+    "field": "congestionDegree",
+    "v1": 0.88,
+    "v2": 0.66
+  },
+  {
+    "rank": 278,
+    "field": "congestionLength",
+    "v1": 1911,
+    "v2": 1498
+  },
+  {
+    "rank": 278,
+    "field": "congestionDegree",
+    "v1": 0.45,
+    "v2": 0.41
+  },
+  {
+    "rank": 279,
+    "field": "congestionLength",
+    "v1": 1358,
+    "v2": 863
+  },
+  {
+    "rank": 279,
+    "field": "congestionDegree",
+    "v1": 0.53,
+    "v2": 0.64
+  },
+  {
+    "rank": 280,
+    "field": "congestionLength",
+    "v1": 909,
+    "v2": 881
+  },
+  {
+    "rank": 280,
+    "field": "congestionDegree",
+    "v1": 0.66,
+    "v2": 0.63
+  },
+  {
+    "rank": 281,
+    "field": "congestionLength",
+    "v1": 802,
+    "v2": 767
+  },
+  {
+    "rank": 281,
+    "field": "congestionDegree",
+    "v1": 0.79,
+    "v2": 0.8
+  },
+  {
+    "rank": 282,
+    "field": "congestionLength",
+    "v1": 612,
+    "v2": 617
+  },
+  {
+    "rank": 282,
+    "field": "congestionDegree",
+    "v1": 0.81,
+    "v2": 0.76
+  },
+  {
+    "rank": 283,
+    "field": "congestionLength",
+    "v1": 1911,
+    "v2": 1498
+  },
+  {
+    "rank": 283,
+    "field": "congestionDegree",
+    "v1": 0.55,
+    "v2": 0.4
+  },
+  {
+    "rank": 284,
+    "field": "congestionLength",
+    "v1": 996,
+    "v2": 1263
+  },
+  {
+    "rank": 284,
+    "field": "congestionDegree",
+    "v1": 0.6,
+    "v2": 0.56
+  },
+  {
+    "rank": 286,
+    "field": "congestionLength",
+    "v1": 401,
+    "v2": 387
+  },
+  {
+    "rank": 286,
+    "field": "congestionDegree",
+    "v1": 0.79,
+    "v2": 0.78
+  },
+  {
+    "rank": 287,
+    "field": "congestionLength",
+    "v1": 535,
+    "v2": 521
+  },
+  {
+    "rank": 287,
+    "field": "congestionDegree",
+    "v1": 0.75,
+    "v2": 0.87
+  },
+  {
+    "rank": 289,
+    "field": "congestionLength",
+    "v1": 996,
+    "v2": 1263
+  },
+  {
+    "rank": 289,
+    "field": "congestionDegree",
+    "v1": 0.6,
+    "v2": 0.56
+  },
+  {
+    "rank": 291,
+    "field": "congestionLength",
+    "v1": 535,
+    "v2": 521
+  },
+  {
+    "rank": 291,
+    "field": "congestionDegree",
+    "v1": 0.8,
+    "v2": 0.89
+  },
+  {
+    "rank": 293,
+    "field": "congestionLength",
+    "v1": 964,
+    "v2": 913
+  },
+  {
+    "rank": 293,
+    "field": "congestionDegree",
+    "v1": 0.66,
+    "v2": 0.69
+  },
+  {
+    "rank": 294,
+    "field": "congestionLength",
+    "v1": 1579,
+    "v2": 685
+  },
+  {
+    "rank": 294,
+    "field": "congestionDegree",
+    "v1": 0.45,
+    "v2": 0.51
+  },
+  {
+    "rank": 295,
+    "field": "congestionDegree",
+    "v1": 0.62,
+    "v2": 0.6
+  },
+  {
+    "rank": 298,
+    "field": "congestionLength",
+    "v1": 802,
+    "v2": 812
+  },
+  {
+    "rank": 298,
+    "field": "congestionDegree",
+    "v1": 0.67,
+    "v2": 0.72
+  },
+  {
+    "rank": 300,
+    "field": "congestionLength",
+    "v1": 612,
+    "v2": 617
+  },
+  {
+    "rank": 300,
+    "field": "congestionDegree",
+    "v1": 0.72,
+    "v2": 0.69
+  },
+  {
+    "rank": 301,
+    "field": "congestionLength",
+    "v1": 576,
+    "v2": 792
+  },
+  {
+    "rank": 301,
+    "field": "congestionDegree",
+    "v1": 0.74,
+    "v2": 0.58
+  },
+  {
+    "rank": 304,
+    "field": "congestionLength",
+    "v1": 909,
+    "v2": 881
+  },
+  {
+    "rank": 304,
+    "field": "congestionDegree",
+    "v1": 0.62,
+    "v2": 0.59
+  },
+  {
+    "rank": 306,
+    "field": "congestionLength",
+    "v1": 1310,
+    "v2": 1315
+  },
+  {
+    "rank": 306,
+    "field": "congestionDegree",
+    "v1": 0.44,
+    "v2": 0.4
+  },
+  {
+    "rank": 307,
+    "field": "congestionLength",
+    "v1": 909,
+    "v2": 881
+  },
+  {
+    "rank": 307,
+    "field": "congestionDegree",
+    "v1": 0.59,
+    "v2": 0.58
+  },
+  {
+    "rank": 308,
+    "field": "congestionLength",
+    "v1": 687,
+    "v2": 876
+  },
+  {
+    "rank": 308,
+    "field": "congestionDegree",
+    "v1": 0.7,
+    "v2": 0.66
+  },
+  {
+    "rank": 310,
+    "field": "congestionLength",
+    "v1": 374,
+    "v2": 411
+  },
+  {
+    "rank": 310,
+    "field": "congestionDegree",
+    "v1": 0.67,
+    "v2": 0.79
+  },
+  {
+    "rank": 311,
+    "field": "congestionLength",
+    "v1": 965,
+    "v2": 1268
+  },
+  {
+    "rank": 311,
+    "field": "congestionDegree",
+    "v1": 0.57,
+    "v2": 0.58
+  },
+  {
+    "rank": 315,
+    "field": "congestionDegree",
+    "v1": 0.54,
+    "v2": 0.55
+  },
+  {
+    "rank": 321,
+    "field": "congestionLength",
+    "v1": 888,
+    "v2": 922
+  },
+  {
+    "rank": 321,
+    "field": "congestionDegree",
+    "v1": 0.6,
+    "v2": 0.57
+  },
+  {
+    "rank": 324,
+    "field": "congestionLength",
+    "v1": 674,
+    "v2": 610
+  },
+  {
+    "rank": 324,
+    "field": "congestionDegree",
+    "v1": 0.53,
+    "v2": 0.57
+  },
+  {
+    "rank": 331,
+    "field": "congestionDegree",
+    "v1": 0.56,
+    "v2": 0.55
+  },
+  {
+    "rank": 335,
+    "field": "congestionLength",
+    "v1": 674,
+    "v2": 610
+  },
+  {
+    "rank": 335,
+    "field": "congestionDegree",
+    "v1": 0.46,
+    "v2": 0.47
+  },
+  {
+    "rank": 338,
+    "field": "congestionDegree",
+    "v1": 0.56,
+    "v2": 0.55
+  },
+  {
+    "rank": 341,
+    "field": "congestionLength",
+    "v1": 1166,
+    "v2": 1219
+  },
+  {
+    "rank": 341,
+    "field": "congestionDegree",
+    "v1": 0.55,
+    "v2": 0.64
+  }
+]

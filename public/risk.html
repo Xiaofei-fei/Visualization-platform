@@ -1,0 +1,70 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>风险态势 · 统一交通分析平台</title><link rel="stylesheet" href="assets/css/common.css"><link rel="stylesheet" href="assets/css/index.css"><link rel="stylesheet" href="assets/vendor/main.css"><link rel="stylesheet" href="assets/vendor/index.css"><link rel="stylesheet" href="assets/css/windowFloatFirst.css"><link rel="stylesheet" href="assets/css/windowFloat.css"><link rel="stylesheet" href="app/risk.css"><link rel="stylesheet" href="app/shared.css"></head><body data-page="risk"><div id="navigation"></div><div id="startup-status" role="alert" hidden></div><main id="module" hidden><div class="dataset-control"><label>风险数据版本 <select id="dataset-version"><option value="v2">2.0</option><option value="v1">1.0</option></select></label></div>
+    <div id="app">
+
+
+        <div class="windowFloat" :style="{'display':isFloat?'block':'none'}">
+            <div class="header-windowFloat">
+                <div class="left">
+                    <img src="assets/image/tj.png" alt="" srcset="">
+                    <span>交通异常风险态势评估</span>
+                </div>
+                <div class="right">
+                    <div class="r-box">
+                        <img src="assets/image/ss.png" alt="" @click="closeFloat">
+                    </div>
+                </div>
+            </div>
+            <div class="body-windowFloat">
+                <div id="radarChart"></div>
+            </div>
+        </div>
+
+
+        <div class="windowFloat" :style="{'display':isFloat1?'block':'none', 'bottom': '350px'}">
+            <div class="header-windowFloat">
+                <div class="left">
+                    <img src="assets/image/tj.png" alt="" srcset="">
+                    <span>交通异常检测与解析</span>
+                </div>
+                <div class="right">
+                    <div class="r-box">
+                        <img src="assets/image/ss.png" alt="" @click="closeFloat1">
+                    </div>
+                </div>
+            </div>
+            <div class="body-windowFloat">
+                <p>交通异常识别时间：{{floatData.detectTime}}</p>
+                <p>事件描述：{{floatData.incid_desc}}</p>
+                <p>上报时间：{{floatData.startTime}}</p>
+                <p>结束时间：{{floatData.endTime}}</p>
+            </div>
+        </div>
+
+
+        <div id="seachBox">
+
+            <div class="box">交通异常风险排名</div><input id="risk-search" aria-label="搜索风险事件" @input="filter($event)" placeholder="搜索风险事件">
+            <div id="searchList" :style="{'display':isShow?'block':'none'}">
+                <ul>
+                    <li key='item.id' @click="searchList(item)" v-for="item in liList">
+                        <p class="cont">{{item.val}}</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="loading" v-show="loading">
+            <div class="circle"></div>
+        </div>
+
+        <div id="amap" class="amap_bg"></div>
+
+
+
+
+
+
+
+</div></main><script src="config.js"></script><script src="config.local.js"></script><script src="app/common.js"></script><script src="app/bootstrap.js"></script></body></html>
