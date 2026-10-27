@@ -1,37 +1,31 @@
 # 验证记录与验收边界
 
-日期：2026-10-27。环境：本机 WSL/Linux、Node 22.22.1、Chrome（/opt/google/chrome/chrome）、Playwright 1.64.1。Browser 插件未提供，按前端验证技能使用 Playwright。
+日期：2026-10-27。环境：WSL/Linux、Node 22.22.1、Chrome、Playwright 1.64.1。Browser插件未提供，使用Playwright验证。
 
-## 自动化
+## 自动化检查
 
-`npm test`：9 项，验证全部源文件 SHA256/历史祖先、全部运行入口/数据引用、两版346项风险图结构、13条优化线路、无重复资源、搜索边界、HTTP路径及配置文件响应。
+- npm test：9/9通过。验证三个源提交的祖先关系、159项源文件SHA256/恢复位置、入口与数据引用、两版346项风险数据的图结构、13条优化线路、资源去重、搜索、配置覆盖与HTTP错误边界。
+- npm run build：通过，生成dist；生产运行不依赖node_modules。
+- 浏览器集成：16/16通过。真实Vue1.0.26、ECharts4.3.0与数据运行；仅高德外部边界使用测试替身。覆盖首次及重复风险选择、v1/v2差异、动态图片有/无、路网非法输入、公交/优化开关、异步乱序返回、SDK失败/缺失、初始化异常、子路径部署、延后callback和加载前选择WebGL。
 
-`npm run build`：生成静态站点到 dist，包含配置覆盖文件。构建不捆绑 node_modules 或 Git 历史。
+移除8个运行无关文件后，完整套件已再次通过。19项受影响来源记录改为原始Git历史恢复，未丢失原文件。
 
-`CHROME_PATH=/opt/google/chrome/chrome npm run test:e2e`：16项浏览器流程全部通过，包含首页、缺少 Key 提示、v1/v2 首次与重复风险选择/雷达、已存在和缺失的动态图片、历史路网空/非法/有效输入、公交查询、优化前后图表与开关、无结果搜索、SDK 加载失败、子目录部署与真实版本导航、查询乱序/迟到、开关状态保持、SDK API缺失和业务初始化异常。
+## 真实高德验收
 
-测试数据使用真实原始文件；Vue 1.0.26 和 ECharts 4.3.0 在 Chrome 中真实执行。高德 SDK 在网络边界被测试替身代替，线路查询只使用固定130路样例，不将任何测试替身作为生产代码或离线地图功能。截图中的业务测试画面也不证明真实底图渲染。
+用户配置只保存在Git忽略的public/config.local.js，不进入Git或交付归档。四个页面均成功加载真实高德SDK与底图，无pageerror；风险页Loca图层、风险项选择和雷达通过。原始公交与优化页各实际查询130路，两处均返回complete/OK、两条方向结果，并绘制匹配线路。
 
-## 尚需使用实际环境验收
+使用Chrome软件WebGL，浏览器仅有Canvas2D读取性能提示，不影响功能。实际SDK复验发现并修复了两项原测试替身没有模拟的行为：script.onload早于地图就绪callback；SVG回退没有Loca所需的GL上下文。现等待callback，风险页加载前设置forceWebGL。参考：[高德官方FAQ](https://lbs.amap.com/faq/js-api/map-js-api/layer/43621)。
 
-- 有效高德 Key、安全代理/安全码和部署域名白名单。
-- 真实 JSAPI 1.4.15/2.0、Loca GPU呼吸点、地图瓦片与网络资源。
-- 当前高德公交服务对历史14条线路的真实返回；可能已改线。
-- Docker 镜像（当前环境未提供 Docker，未实际构建容器）。
-- GitHub Actions 工作流（已提供配置，未上传运行）。
+## GitHub交付
 
-Git push 的只读预检无法获得终端 GitHub 凭证，SSH 也无可用 GitHub 公钥；因此未创建远端分支或 PR。交付完整 Git bundle 和源代码 zip，不能把本地审查误称为 GitHub 已完成合并。
+目标为Visualization-platform，整合分支codex/unify-roadnet-platform-20261027。通过已授权GitHub应用与一次性GitHub执行环境导入完整bundle；包SHA256、三个源提交祖先关系和目标master值在导入前后均校验。默认master始终为b88c4d2，临时导入分支已经自动删除。
 
-## 回归与限制
+[历史导入任务已成功](https://github.com/Xiaofei-fei/Visualization-platform/actions/runs/40486162576)。正式CI结果以PR检查项为准；合入应使用merge commit以保留三个源仓库历史。
 
-旧站点入口未保留重定向，迁移书签参照 MIGRATION.md。保留历史库版本与原有大屏业务布局；首页与导航有移动布局，完整业务面板仍适合桌面。未新增后端或实时风险推断。
+## 尚未覆盖
 
-最终QA：桌面1440×1000与移动首页390×844截图已检查；真实Vue/ECharts交互无pageerror、无相关console警告或缺失资源。固定8765端口在本机出现连接超时，测试已改用系统分配端口并在worker内启动真实服务。
+- 部署域名白名单、不同硬件GPU和全部14条历史公交的当前结果。
+- Docker镜像：当前环境未提供Docker，未实际构建。
+- 生产部署、旧站点切换、默认分支合入：本次没有执行。
 
-## 提供高德配置后的真实复验
-
-用户提供Web端配置后，将其仅写入Git忽略的public/config.local.js。四个页面均成功初始化真实高德SDK、底图与本地数据，无pageerror；风险页真实Loca图层和风险项选择通过。原始公交与优化页各实际查询130路，均返回complete/OK、两条方向结果，并绘制匹配线路。浏览器仅有Canvas2D读取性能提示，不影响功能。使用Chrome软件WebGL，尚未覆盖真实部署域名白名单、所有14条公交或各类硬件GPU。
-
-真实复验发现并修复两项SDK兼容问题：脚本onload早于高德异步callback，必须等待callback；SVG降级渲染缺少Loca所需GL上下文，风险页在SDK加载前设置forceWebGL。新增两项失败复现后完整浏览器套件16/16通过，Node检查9/9通过。参考高德官方FAQ：https://lbs.amap.com/faq/js-api/map-js-api/layer/43621 。
-
-GitHub现有PAT身份验证成功（Xiaofei-fei），但Git推送、创建引用和创建私有仓库接口均返回403 Resource not accessible by personal access token。计划目标为Roadnetrisk-unified（私有），目前未创建、未推送、未创建PR。Windows网页备用工具由于WSL sandboxCwd路径错误无法启动；未改变任何账户安全设置。
+首页与导航验证了1440×1000桌面和390×844移动布局；完整业务面板仍适合桌面。保留历史Vue/ECharts版本，未新增后端或实时风险推断。
