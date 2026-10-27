@@ -1,0 +1,2 @@
+const {defineConfig}=require('@playwright/test');
+module.exports=defineConfig({testDir:'tests',testMatch:'*.spec.cjs',workers:2,timeout:20000,use:{baseURL:'http://127.0.0.1:8765',viewport:{width:1440,height:1000},headless:true,launchOptions:process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH,args:['--no-sandbox']}:{}},reporter:'list'});

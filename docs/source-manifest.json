@@ -1,0 +1,1276 @@
+{
+  "files": [
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "README.md",
+      "sha256": "88852f2b7b5ec612d6aa6035708b4fc3a97f2727c9ae9c78ecf4185694938f85",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/css/common.css",
+      "sha256": "8cda1027690db5a82a12496b329ed1890ffbeb10edcdb822075065eadc312ed2",
+      "target": "public/assets/css/common.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/css/index.css",
+      "sha256": "1b497088c63738b3785fd0e5272ad2899364c54f159cfb7c9e76e3ba0e5f17bd",
+      "target": "public/assets/css/index.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/css/windowFloat.css",
+      "sha256": "589c7ee485a8f52cd9422e82983a0984e6600d345af30327d080acc0cda23ac4",
+      "target": "public/assets/css/windowFloat.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/css/windowFloat.scss",
+      "sha256": "b538f12144bb034103dd1c824d9c268a28edabc7bd49d1ff1e9b455a48fefbec",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/css/windowFloatFirst.css",
+      "sha256": "315e49ac49fcfbe9e45eccb1968de5dfe3a0b4a44686cdb23780ad4055d7cc32",
+      "target": "public/assets/css/windowFloatFirst.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/css/windowFloatFirst.scss",
+      "sha256": "b538f12144bb034103dd1c824d9c268a28edabc7bd49d1ff1e9b455a48fefbec",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/10.gif",
+      "sha256": "d950bf37a554fea0224f07a0ae4f8fa1e79cab5a45e8ce9b6d55fd530c3fc0f3",
+      "target": "public/assets/data/10.gif",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/161.gif",
+      "sha256": "0c7aa7de084d9bb8c6e514acb6dc277d897df0d0a8fae2456a985c2f2a11e44d",
+      "target": "public/assets/data/161.gif",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/31.gif",
+      "sha256": "dbfdb01ae0cecbfeaf68fb59cf69f6c6a3f1d44ae0578ee145ae5b75417cd23d",
+      "target": "public/assets/data/31.gif",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/63.gif",
+      "sha256": "85b73eecf7dec78d6b7a062825f644a1bcee6197deb516c82726c5883fa9a61d",
+      "target": "public/assets/data/63.gif",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/T10_bread_points.js",
+      "sha256": "a2523bad2c9b126787ab12f4d8cc6e967db320f91612f83200a75e0b2b8dfa60",
+      "target": "public/assets/data/T10_bread_points.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/acc.png",
+      "sha256": "e2c3f577cda2b111c1677dd74227b04fc0786cb8d9d14ba4fceea4959985856e",
+      "target": "public/assets/data/acc.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/beforeList1023.js",
+      "sha256": "550066efa8434f882cdd930a3a781682b103bda17baa846fb1e37c057b656366",
+      "target": "public/assets/data/beforeList1023.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/bread_points.js",
+      "sha256": "23bf1516a2f0aeebf2f1fc2e09c9dbb5de5527495296358ddfb7f9642a580d4b",
+      "target": "public/assets/data/bread_points.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/concert.png",
+      "sha256": "23391fd111f679fb53f1eb9f2cee3caa3037e92870eecffda3fa107d3fc84230",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/expo.png",
+      "sha256": "342f76b5e5942f5e16e331ad3dce5bb884a965cd4391172b6ad14b41b5a3036c",
+      "target": "public/assets/data/expo.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/incid1022.js",
+      "sha256": "1b9f538ae8fadcc6e6be2b809b8dfb9b98372800b97106025efdd85fc51ae614",
+      "target": "public/assets/data/incid1022.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/indicators.js",
+      "sha256": "b82d78d8901f2f20a6f8c1010a6f3bf65370b07c2a726627abf51219a95ccddb",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/key.png",
+      "sha256": "26b695ef53b5c5ff74bae6959fe19e19cff2e49d9e37809212a6a67d97bec6ac",
+      "target": "public/assets/data/key.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/liList1023.js",
+      "sha256": "4d3fe999a622278c61d60eb9eda9154505ebe99ae4e6b214a6dae476768578ad",
+      "target": "public/assets/data/liList1023.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/loca.js",
+      "sha256": "90dad9537d7b0f45c1e4fb0a885e99cea1b27c5e39d0918c2e21832bddbc7189",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/maps.js",
+      "sha256": "e9d2667b1e022e9cfe6eeceb62b245ba14860dcee73068771626990d15b0a317",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/marathon.png",
+      "sha256": "7726811c861912e5e464b959954d6ed4f02eed6a5902aefc164ac6135211e665",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/nrc1022.js",
+      "sha256": "262000f811ee3f9101d6cae0b69ef13eba912ea1767380f4c411201e039fe109",
+      "target": "public/assets/data/nrc1022.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/r192.gif",
+      "sha256": "0c7aa7de084d9bb8c6e514acb6dc277d897df0d0a8fae2456a985c2f2a11e44d",
+      "target": "public/assets/data/161.gif",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/risk_rank.js",
+      "sha256": "15900b4f570a661db922bcf0c9f74d31ea8f91a00c1c14ecd53e0302e1fd130f",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/road_nodes.js",
+      "sha256": "5567aac1539b18303a091d50a4e93ac52e5c78211c5bf7eedb3728bce317a7bc",
+      "target": "public/assets/data/road_nodes.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/road_with_car.js",
+      "sha256": "3a84fd819e8c92035fdd9413843c03abf20a82ce2ad9015ce160c3d167f7d06a",
+      "target": "public/assets/data/road_with_car.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/road_work.png",
+      "sha256": "cc73b53e378b4eac0c487a9592bbe6ddc1d25fd23a1f3c0398dc1947ec81781a",
+      "target": "public/assets/data/road_work.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/data/sp_evolve1022.js",
+      "sha256": "3b32a528cafdb88bb60866e2d6bf33f52186c7aabdb6a08ff08a5ddb90bd9f59",
+      "target": "public/assets/data/sp_evolve1022.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/image/pic.gif",
+      "sha256": "f576276f0ae2a00f5fadc7a49ee367110b8c79ac7a2520533557daf7c9e025fa",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/image/pie.png",
+      "sha256": "7793a1f8ce86b46d99ea17dcc993e940f6e0a772fe741164e6fee21240a43075",
+      "target": "public/assets/image/pie.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/image/ss.png",
+      "sha256": "2b45ed841881e86f9fc594704cd49c350bca6aadacf75035a6c994da3e6a58bb",
+      "target": "public/assets/image/ss.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/image/tj.png",
+      "sha256": "d8bd5092b212128554ed5bfdb9cfc1b607024fe0f863bb67171aef6b811183a7",
+      "target": "public/assets/image/tj.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/bootstrap.min.css",
+      "sha256": "96b126417447a9c5d415f06e00e2e6372248c9857f5ff60b6477f8c6f55c449a",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/bootstrap.min.js",
+      "sha256": "24cc29533598f962823c4229bc280487646a27a42a95257c31de1b9b18f3710f",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/datepicker.min.css",
+      "sha256": "d3335cf7f0b12f97010f6aed899b9edf5b97f1c01b9389315441bbe713be8e39",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/datepicker.min.js",
+      "sha256": "366926ab4a5ec1c37b093dbca21c837f76d14521ed044802fd9779a066f58ae8",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/global.css",
+      "sha256": "59b27e3e0b652c573b6bc5f48f3a81a640ae354c03e4134000c71bdc3d73cc52",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/gri.controls.css",
+      "sha256": "bea09bc9abdbd4750d3469104d6cf0f65fe2d209b29a4c77b3413f8bee23f904",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/index.css",
+      "sha256": "7ecabd295d43c1cf9656b039b6ac78d1861c0381d1b59677fe49ed84a8bc0e0c",
+      "target": "public/assets/vendor/index.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/jquery-1.11.1.min.js",
+      "sha256": "540bc6dec1dd4b92ea4d3fb903f69eabf6d919afd48f4e312b163c28cff0f441",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/jquery.circliful.min.js",
+      "sha256": "e01a2d4e356e0ce9786287566973b58d11b3135049bfd4706314ffb00d0fb6b2",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/jquery.cookie.js",
+      "sha256": "b84161c9fbf7520cd14e7019f92120bd87a928a074156e91a992eba9fc9436e8",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/jquery.mousewheel.min.js",
+      "sha256": "8e73a30d35c83ea6a597c3343324d2b7df097ad26e67b62efb5266ee12d317b5",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/jquery.pagination.js",
+      "sha256": "d12f2bdf0237900cab7d1801c1671d4208236fea3340a18efd74ada86347dcce",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/kuma.css",
+      "sha256": "a8efdc1c85a7feaac894033215cf210fa4871d7ab4bf719c6fe895fab25ab007",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/main.css",
+      "sha256": "eee77ca2586c237969b8ae1ba4a024d725e77d936169178e2f4827a731ce7dd8",
+      "target": "public/assets/vendor/main.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/pagination.css",
+      "sha256": "760a5747dbe7f3715cd701c27e89a6b54cb12a5475b50e314ac3f4e9b6e799a7",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/tween.js",
+      "sha256": "e89182c74871db4a27ad98b8e187f46ca4a34bed301ef6f4fec71f8f17a3d08c",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/underscore.js",
+      "sha256": "77a2ed0b5491b35712ce893470988ca74583e29c34b2068dbe2b96a55656648b",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/velocity.js",
+      "sha256": "5ce92f10d0930e0b3dce3467b111db4228ec429e3944a01b6fcc2c311dd572c4",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/velocity.ui.js",
+      "sha256": "aee26776056630b7d717af035cb025c62dc2792d4213687bf1a62475ec4a69cf",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/vue-router.min.js",
+      "sha256": "7bd242230aa1334545d45369a2feb22f26636d63c02343c9ea9bc8bde20d3257",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "Supports/公交大数据_files/vue.min.js",
+      "sha256": "90623af6782ec50eb2c2ab0c52be3679ea9ddf6bc82d221ef991be5989065f41",
+      "target": "public/assets/vendor/vue.min.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk2.0",
+      "commit": "6e11f3590445ebe9390b575009db2072960f859a",
+      "path": "index.html",
+      "sha256": "5560b13e3715697111e621db158a232e75ad261805657a67c81713609f290cdf",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "README.md",
+      "sha256": "14e7e5d490aa6de6c81b92c1f7bf3e99889ee27db09c6e76a234bb8130067103",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/css/common.css",
+      "sha256": "8cda1027690db5a82a12496b329ed1890ffbeb10edcdb822075065eadc312ed2",
+      "target": "public/assets/css/common.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/css/index.css",
+      "sha256": "1b497088c63738b3785fd0e5272ad2899364c54f159cfb7c9e76e3ba0e5f17bd",
+      "target": "public/assets/css/index.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/css/windowFloat.css",
+      "sha256": "589c7ee485a8f52cd9422e82983a0984e6600d345af30327d080acc0cda23ac4",
+      "target": "public/assets/css/windowFloat.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/css/windowFloat.scss",
+      "sha256": "b538f12144bb034103dd1c824d9c268a28edabc7bd49d1ff1e9b455a48fefbec",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/css/windowFloatFirst.css",
+      "sha256": "315e49ac49fcfbe9e45eccb1968de5dfe3a0b4a44686cdb23780ad4055d7cc32",
+      "target": "public/assets/css/windowFloatFirst.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/css/windowFloatFirst.scss",
+      "sha256": "b538f12144bb034103dd1c824d9c268a28edabc7bd49d1ff1e9b455a48fefbec",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/T10_bread_points.js",
+      "sha256": "a2523bad2c9b126787ab12f4d8cc6e967db320f91612f83200a75e0b2b8dfa60",
+      "target": "public/assets/data/T10_bread_points.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/acc.png",
+      "sha256": "e2c3f577cda2b111c1677dd74227b04fc0786cb8d9d14ba4fceea4959985856e",
+      "target": "public/assets/data/acc.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/beforeList1023.js",
+      "sha256": "b391967c8bdbea1d37cdb4b3b68aa896f07ea3648624ee0a29f2dd914641bc4f",
+      "target": "public/assets/data/beforeList1023-Roadnetrisk1-0.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/bread_points.js",
+      "sha256": "23bf1516a2f0aeebf2f1fc2e09c9dbb5de5527495296358ddfb7f9642a580d4b",
+      "target": "public/assets/data/bread_points.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/concert.png",
+      "sha256": "23391fd111f679fb53f1eb9f2cee3caa3037e92870eecffda3fa107d3fc84230",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/expo.png",
+      "sha256": "342f76b5e5942f5e16e331ad3dce5bb884a965cd4391172b6ad14b41b5a3036c",
+      "target": "public/assets/data/expo.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/incid.js",
+      "sha256": "027ff98fea37c78d4ba4849cc769555eb296ef1539d6211d170be67e5ab435a9",
+      "target": "public/assets/data/incid.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/incid1022.js",
+      "sha256": "1b9f538ae8fadcc6e6be2b809b8dfb9b98372800b97106025efdd85fc51ae614",
+      "target": "public/assets/data/incid1022.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/indicators.js",
+      "sha256": "b82d78d8901f2f20a6f8c1010a6f3bf65370b07c2a726627abf51219a95ccddb",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/key.png",
+      "sha256": "26b695ef53b5c5ff74bae6959fe19e19cff2e49d9e37809212a6a67d97bec6ac",
+      "target": "public/assets/data/key.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/liList1023.js",
+      "sha256": "380c7d942f264c239a3217012bca966985e97a6420cd3015c30160d3cefd9e0b",
+      "target": "public/assets/data/liList1023-Roadnetrisk1-0.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/marathon.png",
+      "sha256": "7726811c861912e5e464b959954d6ed4f02eed6a5902aefc164ac6135211e665",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/nrc.js",
+      "sha256": "3246cababd474cd192036362040cd195cd5d8bac9f215b39d20ae5385736287e",
+      "target": "public/assets/data/nrc.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/nrc1022.js",
+      "sha256": "262000f811ee3f9101d6cae0b69ef13eba912ea1767380f4c411201e039fe109",
+      "target": "public/assets/data/nrc1022.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/nrc2.js",
+      "sha256": "be13b52b9e878f1bb33b32b824c130cca8f29f5f1c4b2e3af51dfbfc34129c7e",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/risk_rank.js",
+      "sha256": "15900b4f570a661db922bcf0c9f74d31ea8f91a00c1c14ecd53e0302e1fd130f",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/road_nodes.js",
+      "sha256": "5567aac1539b18303a091d50a4e93ac52e5c78211c5bf7eedb3728bce317a7bc",
+      "target": "public/assets/data/road_nodes.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/road_with_car.js",
+      "sha256": "3a84fd819e8c92035fdd9413843c03abf20a82ce2ad9015ce160c3d167f7d06a",
+      "target": "public/assets/data/road_with_car.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/road_work.png",
+      "sha256": "cc73b53e378b4eac0c487a9592bbe6ddc1d25fd23a1f3c0398dc1947ec81781a",
+      "target": "public/assets/data/road_work.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/sp_evolve.js",
+      "sha256": "69552610be09efcae9255cb8c37a2517ef0631b8817d9e5a45f5c032c67eeef2",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/data/sp_evolve1022.js",
+      "sha256": "3b32a528cafdb88bb60866e2d6bf33f52186c7aabdb6a08ff08a5ddb90bd9f59",
+      "target": "public/assets/data/sp_evolve1022.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/image/pic.gif",
+      "sha256": "f576276f0ae2a00f5fadc7a49ee367110b8c79ac7a2520533557daf7c9e025fa",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/image/pie.png",
+      "sha256": "7793a1f8ce86b46d99ea17dcc993e940f6e0a772fe741164e6fee21240a43075",
+      "target": "public/assets/image/pie.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/image/ss.png",
+      "sha256": "2b45ed841881e86f9fc594704cd49c350bca6aadacf75035a6c994da3e6a58bb",
+      "target": "public/assets/image/ss.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/image/tj.png",
+      "sha256": "d8bd5092b212128554ed5bfdb9cfc1b607024fe0f863bb67171aef6b811183a7",
+      "target": "public/assets/image/tj.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/ACME.png",
+      "sha256": "d7e75fe61967090f6c00aedd5bd2fa1c0f3b8f91a65d31238c85e8744e443e90",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/acme0.png",
+      "sha256": "3a6597360b26836f0910737bbe490c1bf053139478c30b561565367e7154ed48",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/bootstrap.min.css",
+      "sha256": "96b126417447a9c5d415f06e00e2e6372248c9857f5ff60b6477f8c6f55c449a",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/bootstrap.min.js",
+      "sha256": "24cc29533598f962823c4229bc280487646a27a42a95257c31de1b9b18f3710f",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/datepicker.min.css",
+      "sha256": "d3335cf7f0b12f97010f6aed899b9edf5b97f1c01b9389315441bbe713be8e39",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/datepicker.min.js",
+      "sha256": "366926ab4a5ec1c37b093dbca21c837f76d14521ed044802fd9779a066f58ae8",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/global.css",
+      "sha256": "59b27e3e0b652c573b6bc5f48f3a81a640ae354c03e4134000c71bdc3d73cc52",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/gri.controls.css",
+      "sha256": "bea09bc9abdbd4750d3469104d6cf0f65fe2d209b29a4c77b3413f8bee23f904",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/index.css",
+      "sha256": "7ecabd295d43c1cf9656b039b6ac78d1861c0381d1b59677fe49ed84a8bc0e0c",
+      "target": "public/assets/vendor/index.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/jquery-1.11.1.min.js",
+      "sha256": "540bc6dec1dd4b92ea4d3fb903f69eabf6d919afd48f4e312b163c28cff0f441",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/jquery.circliful.min.js",
+      "sha256": "e01a2d4e356e0ce9786287566973b58d11b3135049bfd4706314ffb00d0fb6b2",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/jquery.cookie.js",
+      "sha256": "b84161c9fbf7520cd14e7019f92120bd87a928a074156e91a992eba9fc9436e8",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/jquery.mousewheel.min.js",
+      "sha256": "8e73a30d35c83ea6a597c3343324d2b7df097ad26e67b62efb5266ee12d317b5",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/jquery.pagination.js",
+      "sha256": "d12f2bdf0237900cab7d1801c1671d4208236fea3340a18efd74ada86347dcce",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/kuma.css",
+      "sha256": "a8efdc1c85a7feaac894033215cf210fa4871d7ab4bf719c6fe895fab25ab007",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/main.css",
+      "sha256": "eee77ca2586c237969b8ae1ba4a024d725e77d936169178e2f4827a731ce7dd8",
+      "target": "public/assets/vendor/main.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/pagination.css",
+      "sha256": "760a5747dbe7f3715cd701c27e89a6b54cb12a5475b50e314ac3f4e9b6e799a7",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/tween.js",
+      "sha256": "e89182c74871db4a27ad98b8e187f46ca4a34bed301ef6f4fec71f8f17a3d08c",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/underscore.js",
+      "sha256": "77a2ed0b5491b35712ce893470988ca74583e29c34b2068dbe2b96a55656648b",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/velocity.js",
+      "sha256": "5ce92f10d0930e0b3dce3467b111db4228ec429e3944a01b6fcc2c311dd572c4",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/velocity.ui.js",
+      "sha256": "aee26776056630b7d717af035cb025c62dc2792d4213687bf1a62475ec4a69cf",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/vue-router.min.js",
+      "sha256": "7bd242230aa1334545d45369a2feb22f26636d63c02343c9ea9bc8bde20d3257",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/vue.min.js",
+      "sha256": "90623af6782ec50eb2c2ab0c52be3679ea9ddf6bc82d221ef991be5989065f41",
+      "target": "public/assets/vendor/vue.min.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "Supports/公交大数据_files/公交大数据.html",
+      "sha256": "678bfd79346681d309d59c5c637074c066ed94b679aa771cf7eebef4d9724c43",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Roadnetrisk1.0",
+      "commit": "5f53366467a5c8825fd7405c775a31d77da860e0",
+      "path": "index.html",
+      "sha256": "fb9fd6c06281572654ec88ac6ee4a93b76f7c795ec020441ee5c58c47c5673bd",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "README.md",
+      "sha256": "6c0d0ff0e653203b14ef58350c34b3090d930a89091d5f51f6c6ec16fb129164",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/css/common.css",
+      "sha256": "8cda1027690db5a82a12496b329ed1890ffbeb10edcdb822075065eadc312ed2",
+      "target": "public/assets/css/common.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/css/index.css",
+      "sha256": "156f3a91ebb552a57a023a1502ed2faf991bd123f522a2ad79ecf6acf278f253",
+      "target": "public/assets/css/index-Visualization-platform.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/css/windowFloatFirst.css",
+      "sha256": "315e49ac49fcfbe9e45eccb1968de5dfe3a0b4a44686cdb23780ad4055d7cc32",
+      "target": "public/assets/css/windowFloatFirst.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/css/windowFloatFirst.scss",
+      "sha256": "b538f12144bb034103dd1c824d9c268a28edabc7bd49d1ff1e9b455a48fefbec",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/acc.png",
+      "sha256": "e2c3f577cda2b111c1677dd74227b04fc0786cb8d9d14ba4fceea4959985856e",
+      "target": "public/assets/data/acc.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/concert.png",
+      "sha256": "23391fd111f679fb53f1eb9f2cee3caa3037e92870eecffda3fa107d3fc84230",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/expo.png",
+      "sha256": "342f76b5e5942f5e16e331ad3dce5bb884a965cd4391172b6ad14b41b5a3036c",
+      "target": "public/assets/data/expo.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/incid.js",
+      "sha256": "027ff98fea37c78d4ba4849cc769555eb296ef1539d6211d170be67e5ab435a9",
+      "target": "public/assets/data/incid.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/key.png",
+      "sha256": "26b695ef53b5c5ff74bae6959fe19e19cff2e49d9e37809212a6a67d97bec6ac",
+      "target": "public/assets/data/key.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/marathon.png",
+      "sha256": "7726811c861912e5e464b959954d6ed4f02eed6a5902aefc164ac6135211e665",
+      "target": null,
+      "reason": "Unused by the unified runtime; removed with user authorization and preserved in the original Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/nrc.js",
+      "sha256": "3246cababd474cd192036362040cd195cd5d8bac9f215b39d20ae5385736287e",
+      "target": "public/assets/data/nrc.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/road_nodes.js",
+      "sha256": "5567aac1539b18303a091d50a4e93ac52e5c78211c5bf7eedb3728bce317a7bc",
+      "target": "public/assets/data/road_nodes.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/road_with_car.js",
+      "sha256": "3a84fd819e8c92035fdd9413843c03abf20a82ce2ad9015ce160c3d167f7d06a",
+      "target": "public/assets/data/road_with_car.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/data/road_work.png",
+      "sha256": "cc73b53e378b4eac0c487a9592bbe6ddc1d25fd23a1f3c0398dc1947ec81781a",
+      "target": "public/assets/data/road_work.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/image/pie.png",
+      "sha256": "7793a1f8ce86b46d99ea17dcc993e940f6e0a772fe741164e6fee21240a43075",
+      "target": "public/assets/image/pie.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/image/ss.png",
+      "sha256": "2b45ed841881e86f9fc594704cd49c350bca6aadacf75035a6c994da3e6a58bb",
+      "target": "public/assets/image/ss.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/image/tj.png",
+      "sha256": "d8bd5092b212128554ed5bfdb9cfc1b607024fe0f863bb67171aef6b811183a7",
+      "target": "public/assets/image/tj.png",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/优化线网.html",
+      "sha256": "8275160c5705f6cfc57635f6c7b3cc3b05700e3406f5ecf0726110aad9e2397f",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/ACME.png",
+      "sha256": "d7e75fe61967090f6c00aedd5bd2fa1c0f3b8f91a65d31238c85e8744e443e90",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/acme0.png",
+      "sha256": "3a6597360b26836f0910737bbe490c1bf053139478c30b561565367e7154ed48",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/bootstrap.min.css",
+      "sha256": "96b126417447a9c5d415f06e00e2e6372248c9857f5ff60b6477f8c6f55c449a",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/bootstrap.min.js",
+      "sha256": "24cc29533598f962823c4229bc280487646a27a42a95257c31de1b9b18f3710f",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/datepicker.min.css",
+      "sha256": "d3335cf7f0b12f97010f6aed899b9edf5b97f1c01b9389315441bbe713be8e39",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/datepicker.min.js",
+      "sha256": "366926ab4a5ec1c37b093dbca21c837f76d14521ed044802fd9779a066f58ae8",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/global.css",
+      "sha256": "59b27e3e0b652c573b6bc5f48f3a81a640ae354c03e4134000c71bdc3d73cc52",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/gri.controls.css",
+      "sha256": "bea09bc9abdbd4750d3469104d6cf0f65fe2d209b29a4c77b3413f8bee23f904",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/index.css",
+      "sha256": "7ecabd295d43c1cf9656b039b6ac78d1861c0381d1b59677fe49ed84a8bc0e0c",
+      "target": "public/assets/vendor/index.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/jquery-1.11.1.min.js",
+      "sha256": "540bc6dec1dd4b92ea4d3fb903f69eabf6d919afd48f4e312b163c28cff0f441",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/jquery.circliful.min.js",
+      "sha256": "e01a2d4e356e0ce9786287566973b58d11b3135049bfd4706314ffb00d0fb6b2",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/jquery.cookie.js",
+      "sha256": "b84161c9fbf7520cd14e7019f92120bd87a928a074156e91a992eba9fc9436e8",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/jquery.mousewheel.min.js",
+      "sha256": "8e73a30d35c83ea6a597c3343324d2b7df097ad26e67b62efb5266ee12d317b5",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/jquery.pagination.js",
+      "sha256": "d12f2bdf0237900cab7d1801c1671d4208236fea3340a18efd74ada86347dcce",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/kuma.css",
+      "sha256": "a8efdc1c85a7feaac894033215cf210fa4871d7ab4bf719c6fe895fab25ab007",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/main.css",
+      "sha256": "eee77ca2586c237969b8ae1ba4a024d725e77d936169178e2f4827a731ce7dd8",
+      "target": "public/assets/vendor/main.css",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/pagination.css",
+      "sha256": "760a5747dbe7f3715cd701c27e89a6b54cb12a5475b50e314ac3f4e9b6e799a7",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/tween.js",
+      "sha256": "e89182c74871db4a27ad98b8e187f46ca4a34bed301ef6f4fec71f8f17a3d08c",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/underscore.js",
+      "sha256": "77a2ed0b5491b35712ce893470988ca74583e29c34b2068dbe2b96a55656648b",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/velocity.js",
+      "sha256": "5ce92f10d0930e0b3dce3467b111db4228ec429e3944a01b6fcc2c311dd572c4",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/velocity.ui.js",
+      "sha256": "aee26776056630b7d717af035cb025c62dc2792d4213687bf1a62475ec4a69cf",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/vue-router.min.js",
+      "sha256": "7bd242230aa1334545d45369a2feb22f26636d63c02343c9ea9bc8bde20d3257",
+      "target": null,
+      "reason": "unused legacy dependency or artwork; retained in Git history"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/vue.min.js",
+      "sha256": "90623af6782ec50eb2c2ab0c52be3679ea9ddf6bc82d221ef991be5989065f41",
+      "target": "public/assets/vendor/vue.min.js",
+      "reason": "shared asset"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/公交大数据_files/公交大数据.html",
+      "sha256": "678bfd79346681d309d59c5c637074c066ed94b679aa771cf7eebef4d9724c43",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "Supports/路网状况.html",
+      "sha256": "82f98cbe68e33358fba30a0176d8de9b324697ce02ad54997cfb295b02280bd2",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    },
+    {
+      "repository": "Visualization-platform",
+      "commit": "b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e",
+      "path": "index.html",
+      "sha256": "cea8c6199d64b3859c8f72df2d5edb10245415d63ccfbc758db07b64ed9bdfbf",
+      "target": null,
+      "reason": "original source retained in Git history; extracted page or retired SDK/template"
+    }
+  ]
+}

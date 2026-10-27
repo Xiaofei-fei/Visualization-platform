@@ -1,0 +1,51 @@
+{
+  "risk": {
+    "version": "2.0",
+    "loca": true,
+    "data": [
+      "assets/data/road_nodes.js",
+      "assets/data/nrc1022.js",
+      "assets/data/incid1022.js",
+      "assets/data/sp_evolve1022.js",
+      "assets/data/road_with_car.js",
+      "assets/data/bread_points.js",
+      "assets/data/T10_bread_points.js"
+    ],
+    "datasets": {
+      "v1": [
+        "assets/data/liList1023-Roadnetrisk1-0.js",
+        "assets/data/beforeList1023-Roadnetrisk1-0.js"
+      ],
+      "v2": [
+        "assets/data/liList1023.js",
+        "assets/data/beforeList1023.js"
+      ]
+    }
+  },
+  "transit": {
+    "version": "1.4.15",
+    "loca": false,
+    "data": [
+      "assets/data/bus-metrics.js",
+      "assets/data/transit-data.js"
+    ]
+  },
+  "optimization": {
+    "version": "1.4.15",
+    "loca": false,
+    "data": [
+      "assets/data/bus-metrics.js",
+      "assets/data/optimization-data.js"
+    ]
+  },
+  "roads": {
+    "version": "1.4.15",
+    "loca": false,
+    "data": [
+      "assets/data/road_nodes.js",
+      "assets/data/nrc.js",
+      "assets/data/incid.js",
+      "assets/data/road_with_car.js"
+    ]
+  }
+}

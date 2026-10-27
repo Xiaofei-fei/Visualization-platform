@@ -1,0 +1,55 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>原始公交 · 统一交通分析平台</title><link rel="stylesheet" href="assets/css/common.css"><link rel="stylesheet" href="assets/css/index-Visualization-platform.css"><link rel="stylesheet" href="assets/vendor/main.css"><link rel="stylesheet" href="assets/vendor/index.css"><link rel="stylesheet" href="assets/css/windowFloatFirst.css"><link rel="stylesheet" href="app/transit.css"><link rel="stylesheet" href="app/shared.css"><link rel="icon" href="assets/image/tj.png"></head><body data-page="transit"><div id="navigation"></div><div id="startup-status" role="alert" hidden></div><main id="module" hidden>
+    <div id="app">
+
+
+        <div class="windowFloat" :style="{'display':isFloat?'block':'none'}">
+            <div class="header-windowFloat">
+                <div class="left">
+                    <img src="assets/image/tj.png" alt="" srcset="">
+                    <span>统计信息</span>
+                </div>
+                <div class="right">
+                    <div class="r-box">
+                        <img src="assets/image/ss.png" alt="" @click="closeFloat">
+                    </div>
+                </div>
+            </div>
+            <div class="body-windowFloat">
+                <p>线路名称：{{floatData.line_name}}</p>
+                <div id="radarChart"></div>
+            </div>
+        </div>
+
+
+
+        <div id="amap" class="amap_bg"></div>
+
+        <div class="maincontent">
+
+            <div class="nav_title fn-clear">
+
+                <div class="buslineSearchWrap" style="display: none;">
+                </div>
+            </div>
+        </div>
+        <div id="seachBox">
+            <input :value="currentItem ? currentItem.val : ''" type="text" @focus="focusStart" @keyup="filter($event)" placeholder="搜索公交线"
+                id="busline-search" autocomplete="off">
+            <div id="searchList" :style="{'display':isShow?'block':'none'}">
+                <ul>
+                    <li key='item.id' @click="searchList($event)" v-for="item in liList">{{item.val}}</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="panel"></div>
+        <div class="loading" v-show="loading">
+            <div class="circle"></div>
+        </div>
+    </div>
+
+
+
+
+
+</main><script src="config.js"></script><script src="config.local.js"></script><script src="app/common.js"></script><script src="app/bootstrap.js"></script></body></html>

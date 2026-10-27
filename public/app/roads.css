@@ -1,0 +1,98 @@
+
+    body,
+    html,
+    #container {
+      height: 100%;
+      margin: 0px;
+      font: 12px Arial;
+    }
+
+    .content-window-card {
+      position: relative;
+      box-shadow: none;
+      bottom: 0;
+      left: 0;
+      width: auto;
+      padding: 0;
+    }
+
+    .content-window-card p {
+      height: 2rem;
+    }
+
+    .custom-info {
+      border: solid 1px silver;
+    }
+
+    div.info-top img {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      transition-duration: 0.25s;
+    }
+
+    div.info-top img:hover {
+      box-shadow: 0px 0px 5px #000;
+    }
+
+    div.info-middle {
+      font-size: 12px;
+      padding: 10px 6px;
+      line-height: 20px;
+    }
+
+    div.info-bottom {
+      height: 0px;
+      width: 100%;
+      clear: both;
+      text-align: center;
+    }
+
+    div.info-bottom img {
+      position: relative;
+      z-index: 104;
+      left: -140px;
+    }
+
+    .info-middle img {
+      float: left;
+      margin-right: 6px;
+    }
+
+
+    #seachBox01 {
+      position: fixed;
+      top: 70px;
+      left: 30px;
+      z-index: 888;
+    }
+
+    #seachBox01 input {
+      width: 270 px;
+      height: 30px;
+    }
+
+    #choice {
+      padding: 10px;
+      width: 100 px;
+      margin: 30px auto;
+      font-family: "Microsoft Yahei", "微软雅黑";
+      font-size: 14px;
+    }
+
+    /* #choice>input {
+      margin-right: 10px;
+      height: 20px;
+      width: 80 px;
+      border: 1px solid #e2e2e2;
+      padding: 0 0 0 40px;
+    } */
+
+    button {
+      text-align: center;
+      border: none;
+      width: 50px;
+      height: 30px;
+      border-radius: 1px;
+      cursor: pointer;
+    }
