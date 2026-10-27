@@ -1,3 +1,5 @@
+window.RoadnetModules = window.RoadnetModules || {};
+window.RoadnetModules['transit'] = function initialize() {
 var map = new AMap.Map("amap", {
             resizeEnable: true,
             center: [116.397428, 39.90923],
@@ -28,6 +30,7 @@ var map = new AMap.Map("amap", {
                 },
                 ],
                 loading: false,
+                lineRequestId: 0,
                 currentItem: null,
                 isShow: false,
                 isFloat: false,
@@ -56,6 +59,7 @@ var map = new AMap.Map("amap", {
                     this.isFloat = true
                     let currentItem = this.liList.find((o, index) => o.val === e.target.innerText)
                     this.currentItem = currentItem
+                    const requestId = ++this.lineRequestId;
                     map.clearMap();
                     var linesearch = new AMap.LineSearch({
                         pageIndex: 1,
@@ -71,6 +75,7 @@ var map = new AMap.Map("amap", {
                     //搜索“536”相关公交线路
                     const name = val.match(/([^\(]+)/)[1]
                     linesearch.search(name, (status, result) => {
+                        if (requestId !== this.lineRequestId || this.currentItem !== currentItem) return;
                         map.clearMap()
 
                         if (status === 'complete' && result.info === 'OK') {
@@ -192,3 +197,4 @@ var map = new AMap.Map("amap", {
                 }
             }
         });
+};

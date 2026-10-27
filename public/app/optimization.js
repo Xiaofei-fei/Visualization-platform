@@ -1,3 +1,5 @@
+window.RoadnetModules = window.RoadnetModules || {};
+window.RoadnetModules['optimization'] = function initialize() {
 var map = new AMap.Map("amap", {
       resizeEnable: true,
       center: [116.397428, 39.90923],
@@ -19,6 +21,7 @@ var map = new AMap.Map("amap", {
         ysxwFlag: false,
         yhxwFlag: false,
         loading: false,
+        lineRequestId: 0,
         currentItem: null,
         // 浮窗数据
         floatData: {}
@@ -131,6 +134,7 @@ var map = new AMap.Map("amap", {
         // 渲染原始线网
         renderYsxw(name) {
           if (!name) return
+          const requestId = ++this.lineRequestId;
           if (!this.linesearch) {
             this.linesearch = new AMap.LineSearch({
               pageIndex: 1,
@@ -145,7 +149,7 @@ var map = new AMap.Map("amap", {
           const nametmp = name.match(/([^\(]+)/)[1]
           //搜索“536”相关公交线路
           this.linesearch.search(nametmp, (status, result) => {
-
+            if (requestId !== this.lineRequestId || !this.ysxwFlag || !this.currentItem || this.currentItem.val !== name) return;
             if (status === 'complete' && result.info === 'OK') {
               result = result.lineInfo.filter(item => item.start_stop.includes(start_stop) && item.end_stop.includes(end_stop))
               this.lineSearch_Callback(result);
@@ -207,6 +211,7 @@ var map = new AMap.Map("amap", {
           this.radarChart.setOption(option)
         },
         clearYsxw() {
+          this.lineRequestId += 1;
           if (this.yslxOverlayroup) {
             this.yslxOverlayroup.clearOverlays()
           }
@@ -256,7 +261,7 @@ var map = new AMap.Map("amap", {
           let obj = this.afterData.find((o, index) => o.line_name === name)
           this.floatPieData = obj
           this.isShow = false;
-          this.isFloat1 = true
+          this.isFloat1 = this.ysxwFlag
           this.isFloat = true
           this.$nextTick(() => this.drawCharts())
         },
@@ -563,3 +568,4 @@ var map = new AMap.Map("amap", {
         }
       }
     });
+};

@@ -1,3 +1,5 @@
+window.RoadnetModules = window.RoadnetModules || {};
+window.RoadnetModules['roads'] = function initialize() {
 
       var map = new AMap.Map("amap", {
         resizeEnable: true,
@@ -207,3 +209,6 @@
         showicon(incid_info[val]); map.setFitView();
         return false;
       }
+
+window.search = search;
+};

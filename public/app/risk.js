@@ -1,3 +1,5 @@
+window.RoadnetModules = window.RoadnetModules || {};
+window.RoadnetModules['risk'] = function initialize() {
 
             // 初始化地图容器
             var map = new AMap.Map("amap", {
@@ -362,3 +364,4 @@
 
                 }
             });
+};

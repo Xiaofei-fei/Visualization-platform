@@ -40,10 +40,9 @@ npm ci
 npm test
 npx playwright install chromium
 npm run test:e2e
-npm run build
 ```
 
-已安装 Chrome 时可设置 `CHROME_PATH` 后跑浏览器测试，例如 Linux 的 `CHROME_PATH=/opt/google/chrome/chrome npm run test:e2e`。测试使用真实 Vue、ECharts 与数据；只替换高德外部 SDK 边界。它们不验证真实高德 Key、瓦片、Loca GPU 呈现或在线公交返回。范围见 [验证记录](docs/VALIDATION.md)。
+已安装 Chrome 时可设置 `CHROME_PATH` 后跑浏览器测试，例如 Linux 的 `CHROME_PATH=/opt/google/chrome/chrome npm run test:e2e`。浏览器测试会先自动构建。测试使用真实 Vue、ECharts 与数据；只替换高德外部 SDK 边界。它们不验证真实高德 Key、瓦片、Loca GPU 呈现或在线公交返回。范围见 [验证记录](docs/VALIDATION.md)。
 
 历史完整性测试需要从 Git bundle 或带完整历史的仓库克隆运行，浅克隆或不含 `.git` 的源码包不能完成历史核验。
 

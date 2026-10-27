@@ -2,6 +2,7 @@
   Roadnet.mountNavigation();
   const status=document.getElementById('startup-status');
   const page=document.body.dataset.page;
+  window.ROADNET_READY=false;
   function showError(message) {status.hidden=false;status.textContent=message;}
   function script(src, callbackName) {
     return new Promise((resolve,reject)=>{
@@ -34,7 +35,10 @@
     if(page==='transit'||page==='optimization')params.set('plugin','AMap.Transfer,AMap.LineSearch');
     try {
       await script('https://webapi.amap.com/maps?'+params,'__roadnet_amap_ready');
+      if(typeof window.AMap?.Map!=='function')throw new Error('地图 API 未就绪');
+      if((page==='transit'||page==='optimization')&&typeof window.AMap.LineSearch!=='function')throw new Error('公交查询 API 未就绪');
       if(profile.loca)await script('https://webapi.amap.com/loca?v=2.0.0&key='+encodeURIComponent(config.amapKey));
+      if(profile.loca&&['Container','GeoJSONSource','ScatterLayer'].some(name=>typeof window.Loca?.[name]!=='function'))throw new Error('Loca API 未就绪');
     }catch(error){throw new Error('地图服务加载失败，请检查网络、Key、域名白名单和安全配置。');}
     const data=[...profile.data];
     if(profile.datasets){
@@ -47,9 +51,11 @@
     for(const url of data)await script(url);
     document.getElementById('module').hidden=false;
     await script('app/'+page+'.js');
+    if(typeof window.RoadnetModules?.[page]!=='function')throw new Error('业务模块未能加载');
+    await window.RoadnetModules[page]();
     window.ROADNET_READY=true;
     window.addEventListener('resize',()=>{
       document.querySelectorAll('#radarChart,#firstPie,#twoPie,#threePie').forEach(el=>window.echarts?.getInstanceByDom(el)?.resize());
     });
-  }catch(error){showError(error.message+' 请检查配置并刷新页面。');}
+  }catch(error){document.getElementById('module').hidden=true;showError(error.message+' 请检查配置并刷新页面。');}
 })();

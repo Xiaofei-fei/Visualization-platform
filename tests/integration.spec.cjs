@@ -1,5 +1,14 @@
-const { test, expect } = require('@playwright/test');
+const { test: base, expect } = require('@playwright/test');
 const path = require('node:path');
+const test=base.extend({
+  appURL:[async({},use)=>{
+    const server=require('../scripts/serve.cjs').createServer();
+    await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+    try {await use('http://127.0.0.1:'+server.address().port);}
+    finally {await new Promise(resolve=>server.close(resolve));}
+  },{scope:'worker'}],
+  baseURL:async({appURL},use)=>use(appURL)
+});
 
 async function sdk(page) {
   await page.route('**/config.local.js', route => route.fulfill({contentType:'text/javascript', body:'window.ROADNET_CONFIG = { ...window.ROADNET_CONFIG, amapKey: "test-key" };'}));
@@ -106,4 +115,49 @@ test('built site works under a nested deployment path and changes risk datasets 
     if(server)await new Promise(resolve=>server.close(resolve));
     fs.rmSync(root,{recursive:true,force:true});
   }
+});
+
+async function delayedQueries(page,module) {
+  await sdk(page);await page.goto(`/${module}.html`);await page.waitForFunction(()=>window.ROADNET_READY);
+  await page.evaluate(()=>{
+    window.lineQueries=[];
+    AMap.LineSearch=class{search(name,callback){window.lineQueries.push({name,callback});}};
+  });
+  await page.locator('#seachBox input').focus();
+}
+async function answerQuery(page,index) {
+  await page.evaluate(index=>{
+    const request=window.lineQueries[index];
+    const route=request.name==='130路'?{start_stop:'北官厅',end_stop:'东湖',path:[[116.38,39.99],[116.39,40]]}:{start_stop:'东直门枢纽站',end_stop:'来广营西桥东',path:[[116.41,40.01],[116.42,40.02]]};
+    route.via_stops=route.path.map(location=>({location}));
+    request.callback('complete',{info:'OK',lineInfo:[route]});
+  },index);
+}
+test('late transit response cannot replace the current route',async({page})=>{
+  await delayedQueries(page,'transit');await page.locator('#searchList li').first().click();
+  await page.locator('#seachBox input').focus();await page.locator('#searchList li').nth(1).click();
+  await answerQuery(page,1);await answerQuery(page,0);
+  await expect.poll(()=>page.evaluate(()=>window.vm.currentItem.val)).toBe('416路(东直门枢纽站--来广营西桥东)');
+  expect(await page.evaluate(()=>window.busPolyline.options.path[0])).toEqual([116.41,40.01]);
+});
+test('unchecking original route invalidates a pending query',async({page})=>{
+  await delayedQueries(page,'optimization');await page.locator('#searchList li').first().click();
+  await page.locator('#ysxw').uncheck();await answerQuery(page,0);
+  expect(await page.evaluate(()=>Boolean(window.vm.yslxOverlayroup))).toBe(false);
+});
+test('optimized toggle keeps the original radar closed when original route is unchecked',async({page})=>{
+  await sdk(page);await page.goto('/optimization.html');await page.waitForFunction(()=>window.ROADNET_READY);
+  await page.locator('#seachBox input').focus();await page.locator('#searchList li').first().click();
+  await page.locator('#ysxw').uncheck();await page.locator('#yhxw').uncheck();await page.locator('#yhxw').check();
+  expect(await page.evaluate(()=>window.vm.isFloat1)).toBe(false);
+});
+test('a successful transport without Loca API shows a recovery alert',async({page})=>{
+  await sdk(page);await page.route('https://webapi.amap.com/loca?**',r=>r.fulfill({body:'window.Loca={};',contentType:'text/javascript'}));
+  await page.goto('/risk.html');await expect(page.getByRole('alert')).toContainText('地图服务加载失败');
+  expect(await page.evaluate(()=>window.ROADNET_READY)).not.toBe(true);
+});
+test('business initialization exceptions cannot report a ready screen',async({page})=>{
+  await sdk(page);await page.route('https://webapi.amap.com/maps?**',r=>r.fulfill({body:require('node:fs').readFileSync(path.join(__dirname,'fixtures/amap.js'),'utf8')+';AMap.Map=class{constructor(){throw new Error("map initialization failed")}};',contentType:'text/javascript'}));
+  await page.goto('/risk.html');await expect(page.getByRole('alert')).toContainText('map initialization failed');
+  expect(await page.evaluate(()=>window.ROADNET_READY)).not.toBe(true);
 });
