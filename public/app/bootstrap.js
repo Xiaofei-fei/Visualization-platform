@@ -16,7 +16,7 @@
       if(callbackName)window[callbackName]=()=>done();
       element.src=src;
       element.onerror=()=>done(new Error('加载失败'));
-      element.onload=()=>{if(!callbackName || (window.AMap && window.AMap.Map))done();};
+      element.onload=()=>{if(!callbackName)done();};
       document.head.append(element);
     });
   }
@@ -28,6 +28,8 @@
     const response=await fetch('app/profiles.json');
     if(!response.ok)throw new Error('无法读取功能配置');
     const profile=(await response.json())[page];
+    // Loca requires WebGL; prevent the SDK from selecting its SVG fallback.
+    if(profile.loca)window.forceWebGL=true;
     window._AMapSecurityConfig=config.serviceHost?{serviceHost:config.serviceHost}:{securityJsCode:config.securityJsCode};
     await script('assets/vendor/vue.min.js');
     await script('assets/vendor/echarts-4.3.0.min.js');

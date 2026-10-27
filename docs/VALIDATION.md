@@ -8,7 +8,7 @@
 
 `npm run build`：生成静态站点到 dist，包含配置覆盖文件。构建不捆绑 node_modules 或 Git 历史。
 
-`CHROME_PATH=/opt/google/chrome/chrome npm run test:e2e`：14项浏览器流程全部通过，包含首页、缺少 Key 提示、v1/v2 首次与重复风险选择/雷达、已存在和缺失的动态图片、历史路网空/非法/有效输入、公交查询、优化前后图表与开关、无结果搜索、SDK 加载失败、子目录部署与真实版本导航、查询乱序/迟到、开关状态保持、SDK API缺失和业务初始化异常。
+`CHROME_PATH=/opt/google/chrome/chrome npm run test:e2e`：16项浏览器流程全部通过，包含首页、缺少 Key 提示、v1/v2 首次与重复风险选择/雷达、已存在和缺失的动态图片、历史路网空/非法/有效输入、公交查询、优化前后图表与开关、无结果搜索、SDK 加载失败、子目录部署与真实版本导航、查询乱序/迟到、开关状态保持、SDK API缺失和业务初始化异常。
 
 测试数据使用真实原始文件；Vue 1.0.26 和 ECharts 4.3.0 在 Chrome 中真实执行。高德 SDK 在网络边界被测试替身代替，线路查询只使用固定130路样例，不将任何测试替身作为生产代码或离线地图功能。截图中的业务测试画面也不证明真实底图渲染。
 
@@ -27,3 +27,11 @@ Git push 的只读预检无法获得终端 GitHub 凭证，SSH 也无可用 GitH
 旧站点入口未保留重定向，迁移书签参照 MIGRATION.md。保留历史库版本与原有大屏业务布局；首页与导航有移动布局，完整业务面板仍适合桌面。未新增后端或实时风险推断。
 
 最终QA：桌面1440×1000与移动首页390×844截图已检查；真实Vue/ECharts交互无pageerror、无相关console警告或缺失资源。固定8765端口在本机出现连接超时，测试已改用系统分配端口并在worker内启动真实服务。
+
+## 提供高德配置后的真实复验
+
+用户提供Web端配置后，将其仅写入Git忽略的public/config.local.js。四个页面均成功初始化真实高德SDK、底图与本地数据，无pageerror；风险页真实Loca图层和风险项选择通过。原始公交与优化页各实际查询130路，均返回complete/OK、两条方向结果，并绘制匹配线路。浏览器仅有Canvas2D读取性能提示，不影响功能。使用Chrome软件WebGL，尚未覆盖真实部署域名白名单、所有14条公交或各类硬件GPU。
+
+真实复验发现并修复两项SDK兼容问题：脚本onload早于高德异步callback，必须等待callback；SVG降级渲染缺少Loca所需GL上下文，风险页在SDK加载前设置forceWebGL。新增两项失败复现后完整浏览器套件16/16通过，Node检查9/9通过。参考高德官方FAQ：https://lbs.amap.com/faq/js-api/map-js-api/layer/43621 。
+
+GitHub现有PAT身份验证成功（Xiaofei-fei），但Git推送、创建引用和创建私有仓库接口均返回403 Resource not accessible by personal access token。计划目标为Roadnetrisk-unified（私有），目前未创建、未推送、未创建PR。Windows网页备用工具由于WSL sandboxCwd路径错误无法启动；未改变任何账户安全设置。

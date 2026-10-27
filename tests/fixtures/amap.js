@@ -15,4 +15,5 @@
     callback('complete',{info:'OK',lineInfo:[{start_stop:'北官厅',end_stop:'东湖',path:[[116.38,39.99],[116.39,40]],via_stops:[{location:[116.38,39.99]},{location:[116.39,40]}]}]});
   }}
   window.AMap={Map,InfoWindow,LineSearch,Polygon:Shape,Polyline:Shape,CircleMarker:Shape,Marker:Shape,Icon:Shape,Size:Shape,Pixel:Shape,OverlayGroup:Shape,TransferPolicy:{LEAST_TIME:0},event:{addListener(target,event,fn){target.on(event,fn);}}};
+  window.__roadnet_amap_ready?.();
 })();

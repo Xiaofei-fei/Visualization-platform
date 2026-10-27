@@ -92,6 +92,10 @@ bundle 是完整历史交付物；zip 是便于浏览/运行的源码。原文�
 git show 5f53366467a5c8825fd7405c775a31d77da860e0:index.html
 ```
 
-当前终端没有 GitHub Git 写入凭证，因此未推送、未创建 PR。拿到凭证后，可将该分支推送到新的目标仓库，或推送到 Roadnetrisk2.0 的同名新分支并对 master 创建草稿 PR；建议使用 **merge commit** 合入以保留三个历史，避免 squash。PR 草稿说明见 `docs/PR_DESCRIPTION.md`。
+远端目标计划为私有仓库 `Xiaofei-fei/Roadnetrisk-unified`。用户现有令牌的身份验证成功，但Git推送与新建仓库接口仍返回403，因此目前未创建远端仓库、未推送、未创建PR。拿到凭证后，可将该分支推送到新的目标仓库，或推送到 Roadnetrisk2.0 的同名新分支并对 master 创建草稿 PR；建议使用 **merge commit** 合入以保留三个历史，避免 squash。PR 草稿说明见 `docs/PR_DESCRIPTION.md`。
 
 在验收完成前保留旧站点部署地址；回滚时重新部署原始 Roadnetrisk2.0 提交即可，无需重写任何历史。源仓库没有独立项目许可证；原有第三方许可证保留，未擅自添加新的开源授权。
+
+## 真实高德验收补充
+
+已使用用户本地配置加载四个真实地图页面，并在原始公交、优化页实际查询130路，两处均得到OK结果并绘制线路。风险页启用WebGL以支持Loca；启动器等待SDK的异步就绪回调后再初始化。完整自动测试为9项Node检查与16项浏览器检查。实际配置只在本机public/config.local.js中，不包含在Git、源码包或历史包中；其他机器需自行配置。

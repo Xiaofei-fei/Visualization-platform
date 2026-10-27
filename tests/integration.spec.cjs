@@ -28,6 +28,7 @@ test('homepage links all modules and shows real dataset counts without credentia
 });
 
 test('missing key explains recovery without a blank page', async ({page}) => {
+  await page.route('**/config.local.js',r=>r.fulfill({body:'// No local overrides.',contentType:'text/javascript'}));
   await page.goto('/risk.html');
   await expect(page.getByRole('alert')).toContainText('config.local.js');
   await expect(page.getByRole('link',{name:'首页',exact:true})).toBeVisible();
@@ -160,4 +161,26 @@ test('business initialization exceptions cannot report a ready screen',async({pa
   await sdk(page);await page.route('https://webapi.amap.com/maps?**',r=>r.fulfill({body:require('node:fs').readFileSync(path.join(__dirname,'fixtures/amap.js'),'utf8')+';AMap.Map=class{constructor(){throw new Error("map initialization failed")}};',contentType:'text/javascript'}));
   await page.goto('/risk.html');await expect(page.getByRole('alert')).toContainText('map initialization failed');
   expect(await page.evaluate(()=>window.ROADNET_READY)).not.toBe(true);
+});
+
+test('map SDK readiness waits for its callback after the script transport finishes',async({page})=>{
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await sdk(page);
+  await page.route('https://webapi.amap.com/maps?**',r=>r.fulfill({
+    contentType:'text/javascript',
+    body:'window.AMap={Map:class PendingMap{}};setTimeout(()=>{'+require('node:fs').readFileSync(path.join(__dirname,'fixtures/amap.js'),'utf8')+'},250);'
+  }));
+  await page.goto('/transit.html');
+  await page.waitForFunction(()=>window.ROADNET_READY);
+  await page.locator('#seachBox input').focus();
+  await expect(page.locator('#searchList li').first()).toBeVisible();
+  expect(errors).toEqual([]);
+});
+
+test('risk selects the WebGL renderer before loading the map SDK for Loca',async({page})=>{
+  await sdk(page);
+  await page.route('https://webapi.amap.com/maps?**',r=>r.fulfill({contentType:'text/javascript',body:'window.SDK_HAS_WEBGL=window.forceWebGL===true;'+require('node:fs').readFileSync(path.join(__dirname,'fixtures/amap.js'),'utf8')}));
+  await page.route('https://webapi.amap.com/loca?**',r=>r.fulfill({contentType:'text/javascript',body:'window.Loca={Container:class{constructor(){if(!window.SDK_HAS_WEBGL)throw new Error("Loca requires the WebGL renderer");this.animate={start(){}}}},GeoJSONSource:class{},ScatterLayer:class{setSource(){}setStyle(){}}};'}));
+  await page.goto('/risk.html');await page.waitForFunction(()=>window.ROADNET_READY);
+  await expect(page.locator('#searchList li')).toHaveCount(346);
 });
