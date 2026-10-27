@@ -92,7 +92,9 @@ bundle 是完整历史交付物；zip 是便于浏览/运行的源码。原文�
 git show 5f53366467a5c8825fd7405c775a31d77da860e0:index.html
 ```
 
-远端目标计划为私有仓库 `Xiaofei-fei/Roadnetrisk-unified`。用户现有令牌的身份验证成功，但Git推送与新建仓库接口仍返回403，因此目前未创建远端仓库、未推送、未创建PR。拿到凭证后，可将该分支推送到新的目标仓库，或推送到 Roadnetrisk2.0 的同名新分支并对 master 创建草稿 PR；建议使用 **merge commit** 合入以保留三个历史，避免 squash。PR 草稿说明见 `docs/PR_DESCRIPTION.md`。
+推送目标为现有仓库 [Xiaofei-fei/Visualization-platform](https://github.com/Xiaofei-fei/Visualization-platform)。整合分支为 `codex/unify-roadnet-platform-20261027`，审查时以该仓库 `master` 为基线，不直接覆盖默认分支。建议使用 **merge commit** 合入，以保留三个仓库的完整历史，避免 squash。PR 说明见 `docs/PR_DESCRIPTION.md`。
+
+旧目录中与当前功能无关的内容已从运行树退休。本次额外移除了8个没有被入口、业务脚本或配置引用的旧数据/图片/SCSS文件；其源文件SHA256和历史恢复位置仍记录在source-manifest.json中。
 
 在验收完成前保留旧站点部署地址；回滚时重新部署原始 Roadnetrisk2.0 提交即可，无需重写任何历史。源仓库没有独立项目许可证；原有第三方许可证保留，未擅自添加新的开源授权。
 

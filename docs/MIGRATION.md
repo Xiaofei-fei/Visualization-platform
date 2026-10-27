@@ -34,3 +34,9 @@ Visualization       b88c4d2fc12ee81d7170feef0fb29cdc079c8a1e
 从新分支运行 `git log --graph --all --oneline` 可看到两个 merge parent 连接历史。使用 `git show <commit>:<原路径>` 恢复指定原始文件。没有旧页面路径兼容重定向；旧部署可以继续服务，迁移书签时使用上表的新入口。
 
 本次未连接用户远程服务器、未改任何 SSH 节点，也未部署或改变旧站点。
+
+## 采用Visualization-platform作为目标仓库
+
+用户指定继续使用现有Visualization-platform。整合分支已经包含该仓库原始master的完整历史，因此可直接与其master比较、审查并用merge commit合入；不重写或覆盖默认分支。Roadnetrisk1.0/2.0原仓库保持不变。
+
+按用户授权，额外从运行目录移除了未被功能引用的8个文件：windowFloat.scss、concert.png、indicators.js、marathon.png、nrc2.js、risk_rank.js、sp_evolve.js、pic.gif。对应19项源文件记录改为通过原始commit/path恢复；已编译CSS、当前风险数据和4个已确认动态图片均保留。第三方许可证保留。
